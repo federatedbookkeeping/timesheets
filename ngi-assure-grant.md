@@ -1,5 +1,10 @@
 # Federated Timesheets
 
+[![hackmd-github-sync-badge](https://hackmd.io/bqGXnK3kRiyjhziz04-gIw/badge)](https://hackmd.io/bqGXnK3kRiyjhziz04-gIw)
+
+
+(these are the round-2 answers, see below for round-1 answers)
+
 ## Answers to grant review questions
 
 1. Is the rate you used the same for each of the tasks?
