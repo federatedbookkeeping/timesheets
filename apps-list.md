@@ -1,6 +1,13 @@
 # Applications that record or consume timesheet data
 
 Alphabetical list:
+Questions:
+    is it usable as a "tracker"? i.e. for tracking billable hours (some projects may be deprecated)
+    is it usable as a "publisher"? i.e. does it have some sort of machine-readable data export (API or CSV export, not html scrape)
+    can it import data in some way (API or CSV import, not manual GUI data entry)
+    can it handle data from multiple collaborators? (some apps may have an import function but still be designed for just 1 user, so not usable for project aggregate pivot sheets)
+    what is the exact data format used for API/import/export, which values can each field take on, and what do these values mean
+
 
 * [7shifts](https://www.7shifts.com/)
 * [ActivityWatch](https://activitywatch.net/)

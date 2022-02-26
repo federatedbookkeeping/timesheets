@@ -1,0 +1,150 @@
+    //Create Time Punch
+    //post https://api.7shifts.com/v1/time_punches
+{
+    "time_punch": {
+        "user_id": 2669,
+        "location_id": 408,
+        "clocked_in": "2014-04-05 06:30:00",
+        "clocked_out": "2014-04-05 10:00:00"
+    }
+}
+
+{
+    "status": "success",
+    "data": {
+        "time_punch": {
+            "id": 123
+        }
+    },
+    "message": "Punch has been added"
+}
+//Read Time Punch
+//get https://api.7shifts.com/v1/time_punches/{punch_id}
+//https://api.7shifts.com/v1/time_punches/123?localized=1
+{
+    "status": "success",
+    "data": {
+        "time_punch": {
+            "id": 123,
+            "shift_id": 0,
+            "user_id": 789,
+            "editable_punch": true,
+            "role_id": 101112,
+            "location_id": 131415,
+            "department_id": 161718,
+            "approved": true,
+            "clocked_in": "2021-08-07 06:30:00",
+            "clocked_out": "2021-08-07 10:00:00",
+            "notes": "",
+            "auto_clocked_out": false,
+            "clocked_in_offline": false,
+            "clocked_out_offline": false,
+            "tips": 0,
+            "created": "2021-08-11 23:54:48",
+            "modified": "2021-08-12 00:05:17",
+            "pos_type": "web",
+            "clocked_in_iso": "2021-08-07T06:30:00+00:00",
+            "clocked_out_iso": "2021-08-07T10:00:00+00:00",
+            "unused_enforceable_breaks": null
+        },
+        "time_punch_break": [
+            {
+                "id": 456,
+                "user_id": 789,
+                "custom_break_id": 0,
+                "paid": true,
+                "in": "2021-08-07 07:00:00",
+                "out": "2021-08-07 07:15:00",
+                "in_iso": "2021-08-07T07:00:00+00:00",
+                "out_iso": "2021-08-07T07:15:00+00:00"
+            }
+        ]
+    },
+    "message": ""
+}
+//Update Time Punch
+//put https://api.7shifts.com/v1/time_punches/{punch_id}
+{
+    "time_punch": {
+        "clocked_in": "2021-08-07 07:30:00"
+    }
+}
+  {
+    "status": "success",
+    "data": {
+        "time_punch": {
+            "id": 123
+        }
+    },
+    "message": "Punch has been saved"
+}
+//   Delete Time Punch
+// delete https://api.7shifts.com/v1/time_punches/{punch_id}
+{
+    "status": "success",
+    "data": [],
+    "message": "Time punch deleted"
+}
+// List Time Punches
+// get https://api.7shifts.com/v1/time_punches
+//https://api.7shifts.com/v1/time_punches?clocked_in[gte]=2014-04-05&clocked_in[lte]=2021-04-06
+{
+    "status": "success",
+    "total": 2,
+    "offset": 0,
+    "limit": 20,
+    "data": [
+        {
+            "time_punch": {
+                "id": 123,
+                "shift_id": 0,
+                "user_id": 456,
+                "editable_punch": true,
+                "role_id": 0,
+                "location_id": 789,
+                "department_id": 101112,
+                "approved": true,
+                "clocked_in": "2014-04-05 06:30:00",
+                "clocked_out": "2014-04-05 10:00:00",
+                "notes": "",
+                "auto_clocked_out": false,
+                "clocked_in_offline": false,
+                "clocked_out_offline": false,
+                "tips": 0,
+                "created": "2021-08-11 17:52:24",
+                "modified": "2021-08-11 17:52:24",
+                "pos_type": "web",
+                "clocked_in_iso": "2014-04-05T06:30:00+00:00",
+                "clocked_out_iso": "2014-04-05T10:00:00+00:00",
+                "unused_enforceable_breaks": null
+            },
+            "time_punch_break": []
+        },
+        {
+            "time_punch": {
+                "id": 123,
+                "shift_id": 0,
+                "user_id": 456,
+                "editable_punch": false,
+                "role_id": 748,
+                "location_id": 789,
+                "department_id": 101112,
+                "approved": true,
+                "clocked_in": "2015-10-27 21:00:00",
+                "clocked_out": "2015-10-28 05:00:00",
+                "notes": "",
+                "auto_clocked_out": false,
+                "clocked_in_offline": false,
+                "clocked_out_offline": false,
+                "tips": 0,
+                "created": "2015-10-27 22:26:20",
+                "modified": "2015-10-27 22:26:20",
+                "pos_type": "",
+                "clocked_in_iso": "2015-10-27T21:00:00+00:00",
+                "clocked_out_iso": "2015-10-28T05:00:00+00:00",
+                "unused_enforceable_breaks": null
+            },
+            "time_punch_break": []
+        }
+    ]
+}
