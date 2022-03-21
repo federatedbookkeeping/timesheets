@@ -20,6 +20,10 @@ First round of filtering. We also need to:
 | [Smarter Time](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#smarter-time-%EF%B8%8F) | Time tracker app for iOS,Web and  Android | ✔️  | CSV | - | - | ❌ | 0-5$ | 
 | [Sprint App](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sprint-app-deprecated-%EF%B8%8F) | Project management and time tracking app | ✔️  | ❌(Html response. No clear doc, conclusion made by looking the code) | - | - | ✔️  | Free |
 | [Staple](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#staple--%EF%B8%8F) | Staple tracker. CVPR 2017: End-To-End Representation Learning for Correlation Filter Based Tracking | ❌ | -  | -  | - | ✔️  | Free |
+| Stratustime |  Employees can record their time  | ✔️   | flat files, FTP, and web services | XML, JSON, or SOAP  | -  | ❌  | 4$+/employee |
+| StreaDeck-Toggl |Time tracking using [Elgato Stream Deck](https://www.elgato.com/en/stream-deck) and [Toggl Track](https://toggl.com/track/) | ✔️  | JSON | JSON | -  | ✔️  | Free |
+| Super Productivity | todo list app with integrated [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing) and time tracking capabilities | ✔️  | (waiting for response) | (waiting for response) | -  | ✔️  | Free |
+| swdc-vscode | Time-tracking plugin for Visual Studio Code | ✔️   | (email sent) | (email sent) | - | ✔️  | Free | 
 
 ##  [Saas-Timetracker](https://github.com/appcasts/saas-timetracker) ⏲️
 
@@ -186,4 +190,117 @@ Example: [hours_worked_report](https://github.com/macfanatic/SprintApp/blob/mast
 Field: Computer vision
 
 "Correlation Filter-based trackers have recently achieved excellent performance, showing great robustness to challenging situations exhibiting motion blur and illumination changes"
-* Problem: track an arbitrary object selected online. 
+* Problem: track an arbitrary object selected online.
+
+##  [Stratustime](https://stratustime.centralservers.com/)  ⏲️
+
+### [FAQ for Integrating stratustime](https://www.nettimesolutions.com/blog/faq-for-integrating-stratustime/)
+
+#### What is stratustime Web Services (STWS) API?              
+
+Stratustime Web Services (STWS) API is designed to allow external systems to connect with the stratustime SaaS engine. stratustime can import and export data from its data store in multiple different ways including flat files, FTP, and web services. The STWS API is designed for end users to consume and send data via XML, JSON, or SOAP.
+
+#### How does the API work?
+
+STWS is composed of three different web service URLs. Users can use any language to interact with the STWS API as long as XML, JSON, or SOAP is the standard for sending and receiving data.
+
+#### How do I set up Single Sign-On?
+
+Enabling SSO can be done in a few simple steps.  When in stratustime, navigate to the configuration interface and select General. Under General, the SSO options can be found in the Web Services section. Proper permission levels in the system are required to enable SSO. When under Web Services, you can check the box to enable SSO. At this time, a “Shared Key” GUID will be issued. After you enable SSO, you can choose to have web access & SSO, or SSO log in only. If “SSO log in only” is selected, stratustime login will be disabled
+
+
+[Web Services API](https://stratustime.centralservers.com/service/)
+
+## [StreamDeck-Toggl](https://github.com/tobimori/streamdeck-toggl)  ⏲️
+
+"Time tracking using [Elgato Stream Deck](https://www.elgato.com/en/stream-deck) and [Toggl Track](https://toggl.com/track/)"
+
+The time tracker here is just the Toogle Tracker:) 
+
+* Elgato Stream Deck: Live Content Creation Controller
+* Toggl Track: Time tracking app that allows you to track your daily activities across different platforms
+	- [What is Toggl track?](https://support.toggl.com/en/articles/2220404-what-is-toggl-track)
+	- [Toggle API doc](https://github.com/toggl/toggl_api_docs)
+	- Available via web application, desktop apps (Windows, Mac, Linux), browser extensions (Chrome, Firefox) and mobile apps (Android, iOS).
+	- Free(most of the features) 
+	- [Get Time Entries](https://github.com/toggl/toggl_api_docs/blob/master/chapters/time_entries.md)
+
+#### Create a time entry
+
+`POST https://api.track.toggl.com/api/v8/time_entries`
+
+Example request
+
+```shell
+curl -v -u 1971800d4d82861d8f2c1651fea4d212:api_token \
+	-H "Content-Type: application/json" \
+	-d '{"time_entry":{"description":"Meeting with possible clients","tags":["billed"],"duration":1200,"start":"2013-03-05T07:58:58.000Z","pid":123,"created_with":"curl"}}' \
+	-X POST https://api.track.toggl.com/api/v8/time_entries
+
+```
+
+Successful response
+```json
+{
+	"data":
+	{
+		"id":436694100,
+		"pid":123,
+		"wid":777,
+		"billable":false,
+		"start":"2013-03-05T07:58:58.000Z",
+		"duration":1200,
+		"description":"Meeting with possible clients",
+		"tags":["billed"]
+	}
+}
+```
+#### Get time entry details
+
+`GET https://api.track.toggl.com/api/v8/time_entries/{time_entry_id}`
+
+Example request:
+
+```shell
+curl -v -u 1971800d4d82861d8f2c1651fea4d212:api_token \
+-X GET https://api.track.toggl.com/api/v8/time_entries/436694100
+```
+
+Successful response
+```json
+{
+	"data":{
+		"id":436694100,
+		"wid":777,
+		"pid":193791,
+		"tid":13350500,
+		"billable":false,
+		"start":"2013-02-27T01:24:00+00:00",
+		"stop":"2013-02-27T07:24:00+00:00",
+		"duration":21600,
+		"description":"Some serious work",
+		"tags":["billed"],
+		"at":"2013-02-27T13:49:18+00:00"
+	}
+}
+```
+
+## [Super Productivity](https://github.com/johannesjo/super-productivity)  ⏲️
+
+"Todo list app with integrated Timeboxing and time tracking capabilities. Comes with integrations for Jira, Gitlab, GitHub and Open Project."
+
+#### Issues
+
+* [API server (preferably Dockerised) #1948](https://github.com/johannesjo/super-productivity/discussions/1948)
+* [ME-Where is the API doc](https://github.com/johannesjo/super-productivity/discussions/1973)
+
+## [swdc-vscode](https://github.com/swdotcom/swdc-vscode)  ⏲️
+
+"Code Time is an open source plugin for automatic programming metrics and time tracking in Visual Studio Code"
+
+(email sent to ask for available API doc)
+
+## [Swipetimes](https://www.swipetimes.com/en/) ⏲️
+
+
+
