@@ -8,7 +8,7 @@ First round of filtering. We also need to:
 
 | App| Description | Tracker | Data export | Data import | Data from multiplie collaborators | Open Source | Price(US$/month) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Saas-Timetracker](https://github.com/federatedbookkeeping/timesheets/new/main#saas-timetracker-%EF%B8%8F) | Rails Software(server-side web application framework) as a Service Application for time tracking| ✔️  | ❌ | ❌ | -  |  ✔️   | Free |
+| [Saas-Timetracker](https://github.com/federatedbookkeeping/timesheets/new/main#saas-timetracker) | Rails Software(server-side web application framework) as a Service Application for time tracking| ✔️  | ❌ | ❌ | -  |  ✔️   | Free |
 | [Sage HR](https://github.com/federatedbookkeeping/timesheets/new/main#sage-hr-%EF%B8%8F) | A simple, easy to use interface to adjust hours worked & submit a timesheet for approval to a manager | ✔️  | ✔️  | ✔️  | - | ❌  | [7$/employee](https://sage.hr/pricing) |
 | [Samay](https://github.com/federatedbookkeeping/timesheets/new/main#samay-%EF%B8%8F) | Command line Time tracking and reporting | ✔️  | ✔️  | ✔️  | - | ✔️   | Free |
 | [SAP Fieldglass](https://github.com/federatedbookkeeping/timesheets/new/main#sap-fieldglass-%EF%B8%8F) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | - |  ❌  | Free(too good to be true) |
