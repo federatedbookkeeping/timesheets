@@ -14,7 +14,7 @@ First round of filtering. We also need to:
 | [SAP Fieldglass](https://github.com/federatedbookkeeping/timesheets/new/main#sap-fieldglass-%EF%B8%8F) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | - |  ❌  | Free(too good to be true) |
 | [Savemytime](https://github.com/federatedbookkeeping/timesheets/new/main#savemytime) | Mobile timetracker  | ✔️  |  CSV export (proffesional 3$) | ❌(?) | - | ❌ | 0-3$ |
 | [Scoro](https://github.com/federatedbookkeeping/timesheets/new/main#scoro-%EF%B8%8F) | Software as a Service (SaaS)| ✔️  |  HTTP/JSON |  HTTP/JSON  | -  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
-| [SimpleTimeTracker-Razeeman](https://github.com/federatedbookkeeping/timesheets/new/main#simple-time-tracker-razeeman-%EF%B8%8F) | Time tracker app | ✔️  | ✔️  | - | CSV export  | ✔️  | Free |
+| [SimpleTimeTracker-Razeeman](https://github.com/federatedbookkeeping/timesheets/new/main#simple-time-tracker-razeeman-%EF%B8%8F) | Time tracker app | ✔️  | CSV | - | - | ✔️  | Free |
 | [Simple TimeTracker with Notion](https://github.com/federatedbookkeeping/timesheets/new/main#simple-time-tracker-minhyeok-lee-with-notion-integration-%EF%B8%8F) | IOS app time tracker | ✔️  | ❌ |  ❌ |  - |  ❌ | Free |
 | [SINC](https://github.com/federatedbookkeeping/timesheets/new/main#sinc-%EF%B8%8F) | Timecard And Location Tracking App | ✔️   | PDF/Excel(the excel file can be opened and saved as a CSV file) |  ❌ | - | ❌ | 0-50$ | 
 | [Smarter Time](https://github.com/federatedbookkeeping/timesheets/new/main#smarter-time-%EF%B8%8F) | Time tracker app for iOS,Web and  Android | ✔️  | CSV | - | - | ❌ | 0-5$ | 
