@@ -8,18 +8,18 @@ First round of filtering. We also need to:
 
 | App| Description | Tracker | Data export | Data import | Data from multiplie collaborators | Open Source | Price(US$/month) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Saas-Timetracker](https://github.com/federatedbookkeeping/timesheets/new/main#saas-timetracker) | Rails Software(server-side web application framework) as a Service Application for time tracking| ✔️  | ❌ | ❌ | -  |  ✔️   | Free |
-| [Sage HR](https://github.com/federatedbookkeeping/timesheets/new/main#sage-hr-%EF%B8%8F) | A simple, easy to use interface to adjust hours worked & submit a timesheet for approval to a manager | ✔️  | ✔️  | ✔️  | - | ❌  | [7$/employee](https://sage.hr/pricing) |
-| [Samay](https://github.com/federatedbookkeeping/timesheets/new/main#samay-%EF%B8%8F) | Command line Time tracking and reporting | ✔️  | ✔️  | ✔️  | - | ✔️   | Free |
-| [SAP Fieldglass](https://github.com/federatedbookkeeping/timesheets/new/main#sap-fieldglass-%EF%B8%8F) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | - |  ❌  | Free(too good to be true) |
-| [Savemytime](https://github.com/federatedbookkeeping/timesheets/new/main#savemytime) | Mobile timetracker  | ✔️  |  CSV export (proffesional 3$) | ❌(?) | - | ❌ | 0-3$ |
-| [Scoro](https://github.com/federatedbookkeeping/timesheets/new/main#scoro-%EF%B8%8F) | Software as a Service (SaaS)| ✔️  |  HTTP/JSON |  HTTP/JSON  | -  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
-| [SimpleTimeTracker-Razeeman](https://github.com/federatedbookkeeping/timesheets/new/main#simple-time-tracker-razeeman-%EF%B8%8F) | Time tracker app | ✔️  | CSV | - | - | ✔️  | Free |
+| [Saas-Timetracker](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#saas-timetracker-%EF%B8%8F) | Rails Software(server-side web application framework) as a Service Application for time tracking| ✔️  | ❌ | ❌ | -  |  ✔️   | Free |
+| [Sage HR](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sage-hr-%EF%B8%8F) | A simple, easy to use interface to adjust hours worked & submit a timesheet for approval to a manager | ✔️  | ✔️  | ✔️  | - | ❌  | [7$/employee](https://sage.hr/pricing) |
+| [Samay](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#samay-%EF%B8%8F) | Command line Time tracking and reporting | ✔️  | ✔️  | ✔️  | - | ✔️   | Free |
+| [SAP Fieldglass](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sap-fieldglass-%EF%B8%8F) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | - |  ❌  | Free(too good to be true) |
+| [Savemytime](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#savemytime) | Mobile timetracker  | ✔️  |  CSV export (proffesional 3$) | ❌(?) | - | ❌ | 0-3$ |
+| [Scoro](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#scoro-%EF%B8%8F) | Software as a Service (SaaS)| ✔️  |  HTTP/JSON |  HTTP/JSON  | -  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
+| [SimpleTimeTracker-Razeeman](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#simple-time-tracker-razeeman-%EF%B8%8F) | Time tracker app | ✔️  | CSV | - | - | ✔️  | Free |
 | [Simple TimeTracker with Notion](https://github.com/federatedbookkeeping/timesheets/new/main#simple-time-tracker-minhyeok-lee-with-notion-integration-%EF%B8%8F) | IOS app time tracker | ✔️  | ❌ |  ❌ |  - |  ❌ | Free |
-| [SINC](https://github.com/federatedbookkeeping/timesheets/new/main#sinc-%EF%B8%8F) | Timecard And Location Tracking App | ✔️   | PDF/Excel(the excel file can be opened and saved as a CSV file) |  ❌ | - | ❌ | 0-50$ | 
-| [Smarter Time](https://github.com/federatedbookkeeping/timesheets/new/main#smarter-time-%EF%B8%8F) | Time tracker app for iOS,Web and  Android | ✔️  | CSV | - | - | ❌ | 0-5$ | 
-| [Sprint App](https://github.com/federatedbookkeeping/timesheets/new/main#sprint-app-deprecated-%EF%B8%8F) | Project management and time tracking app | ✔️  | ❌(Html response. No clear doc, conclusion made by looking the code) | - | - | ✔️  | Free |
-| [Staple](https://github.com/federatedbookkeeping/timesheets/new/main#staple--%EF%B8%8F) | Staple tracker. CVPR 2017: End-To-End Representation Learning for Correlation Filter Based Tracking | ❌ | -  | -  | - | ✔️  | Free |
+| [SINC](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sinc-%EF%B8%8F) | Timecard And Location Tracking App | ✔️   | PDF/Excel(the excel file can be opened and saved as a CSV file) |  ❌ | - | ❌ | 0-50$ | 
+| [Smarter Time](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#smarter-time-%EF%B8%8F) | Time tracker app for iOS,Web and  Android | ✔️  | CSV | - | - | ❌ | 0-5$ | 
+| [Sprint App](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sprint-app-deprecated-%EF%B8%8F) | Project management and time tracking app | ✔️  | ❌(Html response. No clear doc, conclusion made by looking the code) | - | - | ✔️  | Free |
+| [Staple](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#staple--%EF%B8%8F) | Staple tracker. CVPR 2017: End-To-End Representation Learning for Correlation Filter Based Tracking | ❌ | -  | -  | - | ✔️  | Free |
 
 ##  [Saas-Timetracker](https://github.com/appcasts/saas-timetracker) ⏲️
 
