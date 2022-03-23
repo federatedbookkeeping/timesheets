@@ -24,6 +24,21 @@ First round of filtering. We also need to:
 | StreaDeck-Toggl |Time tracking using [Elgato Stream Deck](https://www.elgato.com/en/stream-deck) and [Toggl Track](https://toggl.com/track/) | ✔️  | JSON | JSON | -  | ✔️  | Free |
 | Super Productivity | todo list app with integrated [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing) and time tracking capabilities | ✔️  | (waiting for response) | (waiting for response) | -  | ✔️  | Free |
 | swdc-vscode | Time-tracking plugin for Visual Studio Code | ✔️   | (email sent) | (email sent) | - | ✔️  | Free | 
+| SWipeTimes | Time tracker app | ✔️    | Excel,PDF, JSON,XML,CSV  | - | - | ❌ |    |
+| Syncrew | Mobile workforce managment platform   | ✔️   | ❌  |  ❌  |  ❌  |- |  ❌  | 5$-25$ 
+|Synerion | Workforce managment software | ✔️  | - | -  | - | ❌  | 2$+ |
+| TagTime |At unpredictable [3] times, a box pops up and asks, what are you doing right at this moment |  ❌ | - | - | - | ✔️  | Free | 
+| Task Tracker| Task tracker app | ❌  | - | -  | -  | ❌  | ? | 
+| [Taxi](https://github.com/sephii/taxi) | CLI to time tracking backends | CLI to time tracking backends |  ✔️  | -  | - | ✔️  | Free |
+| [Team Timesheets](https://github.com/thdk/team-timesheets) | Time tracking web app | ✔️  | CSV/month  | - | - | ✔️  | Free |
+| [Tempo](https://www.tempo.io/) by Jira | Jira time tracking app  | ✔️  | XLS,CSV,PDF | - | - | ❌  | 10$+ |
+| [Teramind](https://www.teramind.co/landing/time-tracking-software)| Time Tracking Platform | ✔️ |  ✔️  | ✔️  | - | ❌  | 10$-25$ |
+| [ti](https://github.com/sharat87/ti) | Command line Time tracker | ✔️  | JSON | ❌(Only through terminal) | -  | ✔️  | Free |
+| Tietracker | Time tracker app | ✔️  | XLSX timesheets (Excel, LibreOffice, Numbers, etc),PDF| - | - | ✔️  | Free |
+| Tick | |✔️  | CSV | JSON | - | ❌ | 0-149$ |
+| Ticket Timer | automatically save your time as soon as you respond to a ticket(no further documentation available) | - | - | - | - | ❌  | - |
+| Tim |  CL for recording time logs | ✔️  | JSON | - | - | ✔️  | Free | 
+| Timav | Time Tracking system backed by Google Calendar | ✔️  | - | - | - | ✔️  | Free |
 
 ##  [Saas-Timetracker](https://github.com/appcasts/saas-timetracker) ⏲️
 
@@ -302,5 +317,163 @@ Successful response
 
 ## [Swipetimes](https://www.swipetimes.com/en/) ⏲️
 
+• Daily/weekly backups to SD card, Google Drive or Dropbox.
+• Categorisation of time entries using tags/labels.
+• Invoice management and printing.
 
+
+
+## [Syncrew](https://syncrew.com/)
+
+
+* No API available.
+* Direct integration with Quickbooks( we do custom data exports for other systems. Just email us at info@syncrew.com for details about what can be synced
+* Data lives in the cloud
+* Supports: Android, iPhone, iPad
+"SYNCrew is a mobile workforce management solution which allows managers to track their work teams out in the field. The platform offers clock-in/clock-out with photo & GPS verification, time tracking, employee and team scheduling, email alerts, progress photos, customizable forms, reporting, and more.
+
+## [Synerion](https://www.synerion.com/time-and-attendance-software/)]
+
+* No API available
+* Integrations payroll, ERP, HR software, and 100+ systems
+
+## [TagTime](https://github.com/tagtime/TagTime)
+"
+To determine how you spend your time, TagTime literally randomly samples you. At random times it pops up and asks what you're doing right at that moment"
+
+## [Task Tracker](https://www.tasktracker.in/)
+
+* track time on your activities
+
+* view stats for particular tasks or for all of them
+
+*  simple extension for notification center
+
+## [Taxi](https://github.com/sephii/taxi)
+
+* CLI to time tracking backends
+
+#### Usage 
+
+ All you'll do is edit a text file and write down what you've worked on and how long, like so:
+
+```
+23/01/2014
+
+pingpong 09:00-10:00 Play ping-pong
+infra         -11:00 Repair coffee machine
+```
+
+You can then get a summary of your timesheet:
+
+```
+Staging changes :
+
+# Thursday 23 january #
+pingpong (123/456)             1.00  Play ping-pong
+infra (123/42)                 1.00  Repair coffee machine
+                               2.00
+
+Total                          2.00
+
+Use `taxi ci` to commit staging changes to the server
+```
+
+Supported backends:
+
+* [zebra](https://github.com/sephii/taxi-zebra) : Liip's zebra backend
+* [tempo](https://github.com/alexandreblin/taxi-tempo) : Atlassian JIRA's [Tempo Timesheets](https://tempo.io/) backend
+* [tipee](https://github.com/alexandreblin/taxi-tipee) : Gammadia's [tipee](https://tipee.ch/)  backend
+* [bexio](https://github.com/alexandreblin/taxi-bexio) : [Bexio Timesheets](https://bexio.com/) backend
+* [multi](https://github.com/alexandreblin/taxi-multi) : a special backend to push entries over multiple other backends
+* [clockify](https://github.com/sephii/taxi-clockify) : backend for the free timesheeting tool [clockify.me](https://clockify.me/)
+
+
+Through the use of backends, Taxi allows you to push your timesheets to different systems
+
+## [Team Timesheets](https://github.com/thdk/team-timesheets)
+
+* Bigquery Can be set up to sync with bigquery for advanced reports.
+
+## [Teramind](https://www.teramind.co/landing/time-tracking-software)
+
+## [ti](https://github.com/richmeta/ti)
+
+Small command line time-tracking application. 
+
+#### Usage 
+
+```
+$ ti on my-project
+Start working on my-project.
+
+$ ti status
+You have been working on my-project for less than a minute.
+
+$ ti fin
+So you stopped working on my-project.
+
+```
+
+You can also give it human-readable times:
+
+```
+$ ti on my-project 30mins ago
+```
+
+* All data is saved in a JSON file ,``~/.ti-sheet``. (This can be changed using the $SHEET_FILE environment variable.)
+
+
+##  [Tie Tracker](https://github.com/peterpeterparker/tietracker)
+
+Tie Tracker is a free and open source time tracking application
+
+* You must have your API key available in your account
+* You must also prepare your domain name in the format: `https://domain-name.freshdesk.com`
+
+
+## [Tick](https://www.tickspot.com/time-tracking-app)
+
+* Integration with Quickbooks. [More about Tick’s integration with QuickBoooks](https://www.tickspot.com/quickbooks)
+* [API](https://github.com/tick/tick-api)
+
+#### Example requests
+
+##### GET
+
+```
+curl -H "Authorization: Token token=ApV99yzvwApV99yzvwApV99yzvwApV99yzvw" \
+     -H 'User-Agent: MyCoolApp (me@example.com)' \
+  https://www.tickspot.com/999999999/api/v2/projects.json
+```
+
+##### POST(JSON data)
+
+```
+curl -H "Authorization: Token token=ApV99yzvwApV99yzvwApV99yzvwApV99yzvw" \
+     -H 'Content-Type: application/json' \
+     -H 'User-Agent: MyCoolApp (me@example.com)' \
+     -d '{ "name": "My new project!", "client_id": "999" }' \
+  https://www.tickspot.com/999999999/api/v2/projects.json
+```
+
+## [Ticket Timer](https://www.freshworks.com/apps/freshdesk/ticket_timer/), [Ticket Timer Premium](https://www.freshworks.com/apps/freshdesk/ticket_timer_premium/)
+
+Ticket Timer allows you to automatically save your time as soon as you answer a ticket.
+
+## [Tim](https://github.com/MatthiasKauer/tim) 
+
+* CL for recording time logs
+* All aggregation is handled by [hledger](https://hledger.org/)
+* tim tries to simplify [ti](https://github.com/sharat87/ti) by relying on hledger (which must be on your path) for number crunching.See [differences](https://github.com/MatthiasKauer/tim#differences-to-ti)
+* Text file storage
+* Uses JSON to store data
+
+
+## [Timav](https://szymonkaliski.com/projects/timav/)
+
+Time Tracking system backed by Google Calendar
+
+[GitHub](https://github.com/szymonkaliski/timav-standalone) (from https://github.com/merveilles/Time-Travelers#time-travellers)
+ 
 
