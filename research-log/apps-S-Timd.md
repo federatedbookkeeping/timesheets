@@ -1,45 +1,5 @@
 # [Time trackers S*-Timd*](https://github.com/federatedbookkeeping/timesheets/blame/b017c0c/apps-list.md#L150-L180)
 
-First round of filtering. We also need to: 
-
-* Find out all the import/export data formats.
-* Fill the 'Data from multiplie collaborators'  fields
-
-
-| App| Description | Tracker | Data export | Data import | Data from multiplie collaborators | Open Source | Price(US$/month) |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [Saas-Timetracker](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#saas-timetracker-%EF%B8%8F) | Rails Software(server-side web application framework) as a Service Application for time tracking| ✔️  | ❌ | ❌ | -  |  ✔️   | Free |
-| [Sage HR](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sage-hr-%EF%B8%8F) | A simple, easy to use interface to adjust hours worked & submit a timesheet for approval to a manager | ✔️  | ✔️  | ✔️  | - | ❌  | [7$/employee](https://sage.hr/pricing) |
-| [Samay](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#samay-%EF%B8%8F) | Command line Time tracking and reporting | ✔️  | ✔️  | ✔️  | - | ✔️   | Free |
-| [SAP Fieldglass](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sap-fieldglass-%EF%B8%8F) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | - |  ❌  | Free(too good to be true) |
-| [Savemytime](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#savemytime) | Mobile timetracker  | ✔️  |  CSV export (proffesional 3$) | ❌(?) | - | ❌ | 0-3$ |
-| [Scoro](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#scoro-%EF%B8%8F) | Software as a Service (SaaS)| ✔️  |  HTTP/JSON |  HTTP/JSON  | -  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
-| [SimpleTimeTracker-Razeeman](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#simple-time-tracker-razeeman-%EF%B8%8F) | Time tracker app | ✔️  | CSV | - | - | ✔️  | Free |
-| [Simple TimeTracker with Notion](https://github.com/federatedbookkeeping/timesheets/new/main#simple-time-tracker-minhyeok-lee-with-notion-integration-%EF%B8%8F) | IOS app time tracker | ✔️  | ❌ |  ❌ |  - |  ❌ | Free |
-| [SINC](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sinc-%EF%B8%8F) | Timecard And Location Tracking App | ✔️   | PDF/Excel(the excel file can be opened and saved as a CSV file) |  ❌ | - | ❌ | 0-50$ | 
-| [Smarter Time](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#smarter-time-%EF%B8%8F) | Time tracker app for iOS,Web and  Android | ✔️  | CSV | - | - | ❌ | 0-5$ | 
-| [Sprint App](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#sprint-app-deprecated-%EF%B8%8F) | Project management and time tracking app | ✔️  | ❌(Html response. No clear doc, conclusion made by looking the code) | - | - | ✔️  | Free |
-| [Staple](https://github.com/federatedbookkeeping/timesheets/blob/main/time-tracker-apps/apps-S*-Timd*.md#staple--%EF%B8%8F) | Staple tracker. CVPR 2017: End-To-End Representation Learning for Correlation Filter Based Tracking | ❌ | -  | -  | - | ✔️  | Free |
-| Stratustime |  Employees can record their time  | ✔️   | flat files, FTP, and web services | XML, JSON, or SOAP  | -  | ❌  | 4$+/employee |
-| StreaDeck-Toggl |Time tracking using [Elgato Stream Deck](https://www.elgato.com/en/stream-deck) and [Toggl Track](https://toggl.com/track/) | ✔️  | JSON | JSON | -  | ✔️  | Free |
-| Super Productivity | todo list app with integrated [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing) and time tracking capabilities | ✔️  | (waiting for response) | (waiting for response) | -  | ✔️  | Free |
-| swdc-vscode | Time-tracking plugin for Visual Studio Code | ✔️   | (email sent) | (email sent) | - | ✔️  | Free | 
-| SWipeTimes | Time tracker app | ✔️    | Excel,PDF, JSON,XML,CSV  | - | - | ❌ |    |
-| Syncrew | Mobile workforce managment platform   | ✔️   | ❌  |  ❌  |  ❌  |- |  ❌  | 5$-25$ 
-|Synerion | Workforce managment software | ✔️  | - | -  | - | ❌  | 2$+ |
-| TagTime |At unpredictable [3] times, a box pops up and asks, what are you doing right at this moment |  ❌ | - | - | - | ✔️  | Free | 
-| Task Tracker| Task tracker app | ❌  | - | -  | -  | ❌  | ? | 
-| [Taxi](https://github.com/sephii/taxi) | CLI to time tracking backends | CLI to time tracking backends |  ✔️  | -  | - | ✔️  | Free |
-| [Team Timesheets](https://github.com/thdk/team-timesheets) | Time tracking web app | ✔️  | CSV/month  | - | - | ✔️  | Free |
-| [Tempo](https://www.tempo.io/) by Jira | Jira time tracking app  | ✔️  | XLS,CSV,PDF | - | - | ❌  | 10$+ |
-| [Teramind](https://www.teramind.co/landing/time-tracking-software)| Time Tracking Platform | ✔️ |  ✔️  | ✔️  | - | ❌  | 10$-25$ |
-| [ti](https://github.com/sharat87/ti) | Command line Time tracker | ✔️  | JSON | ❌(Only through terminal) | -  | ✔️  | Free |
-| Tietracker | Time tracker app | ✔️  | XLSX timesheets (Excel, LibreOffice, Numbers, etc),PDF| - | - | ✔️  | Free |
-| Tick | |✔️  | CSV | JSON | - | ❌ | 0-149$ |
-| Ticket Timer | automatically save your time as soon as you respond to a ticket(no further documentation available) | - | - | - | - | ❌  | - |
-| Tim |  CL for recording time logs | ✔️  | JSON | - | - | ✔️  | Free | 
-| Timav | Time Tracking system backed by Google Calendar | ✔️  | - | - | - | ✔️  | Free |
-
 ##  [Saas-Timetracker](https://github.com/appcasts/saas-timetracker) ⏲️
 
 ```
@@ -123,13 +83,14 @@ Comment: Too much effort to create an account
 #### Useful links
 
 [SAP Fieldglass Timesheet Integration](https://www.fieldglass.com/resources/datasheets/sap-fieldglass-timesheet-integration)
+
 [SAP FIeldglass APIs](https://api.sap.com/package/FieldglassAPI/all)
 
 ##  [Savemytime](https://savemytime.co/)
 
-"Track all your activities no matter if they are online or offline, with no effort and need to remember to start a timer". 
+Time tracker mobile App
 
-Looks like an app(not for professionals) to keep track of their programm(where they spend their time( sports, work, hobbies etc)
+"Track all your activities no matter if they are online or offline, with no effort and need to remember to start a timer". 
 
 
 ## [Scoro](https://www.scoro.com/time-management-software/) ⏲️
@@ -146,7 +107,7 @@ Looks like an app(not for professionals) to keep track of their programm(where t
 [Scoro API](https://apitracker.io/a/scoro)
 [Scoro API v2](https://api.scoro.com/api/v2)
 
-##  [Simple Time Tracker (Razeeman)](https://play.google.com/store/apps/details?id=com.razeeman.util.simpletimetracker) ⏲️
+##  [Simple Time Tracker (Razeeman)](https://github.com/Razeeman/Android-SimpleTimeTracker) ⏲️
 
 
 * View previous records and statistics over time.
