@@ -4,7 +4,6 @@ Alphabetical list:
 
 | App| Description | Usable? | Export Formats | Import Formats | Supports Teams? | Open Source? | Price(US$/month) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
 | [7shifts](https://www.7shifts.com/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [ActivityWatch](https://activitywatch.net/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [AdaFruit](https://learn.adafruit.com/time-tracking-cube) (hardware cube for time tracking) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
