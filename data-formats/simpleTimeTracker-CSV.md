@@ -1,6 +1,4 @@
-## Simple Time Tracker app 
 
-CSV
 
 ```
 activity name,time started,time ended,comment,activity tags,record tags

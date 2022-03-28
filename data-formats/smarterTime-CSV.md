@@ -1,6 +1,3 @@
-## [Smarter Time](https://play.google.com/store/apps/details?id=com.smartertime) 
-
-### Export 
 
 ```
 Day,Timestamp UTC ms,Time,Place,Room,Activity,Activity Category,Duration ms,Steps,Move,Device

@@ -1,8 +1,5 @@
-## [SaveMyTime](https://savemytime.co/)
 
-### Export 
 
-CSV
 
 ```
 activityName,activityCategoryName,activityStartDate [ms],activityStartDate,activityEndDate [ms],activityEndDate,activityDuration [ms],activityDuration
