@@ -269,7 +269,7 @@ Alphabetical list:
 
 
 
-| App| Description | Time Tacker | Data Export | Data Import | Team Support | Open Source | Price(US$/month) |
+| App| Description | Time Tracker | Data Export | Data Import | Team Support | Open Source | Price(US$/month) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Saas-Timetracker](https://github.com/appcasts/saas-timetracker) | Rails Software(server-side web application framework) as a Service Application for time tracking| ✔️  | ❌ | ❌ | ❌   |  ✔️   | Free |
 | [Sage HR](https://sage.hr/features/timesheets) | A simple, easy to use interface to adjust hours worked & submit a timesheet for approval to a manager | ✔️  | ✔️  | ✔️ | ✔️  | ❌  | [7$/employee](https://sage.hr/pricing) |
