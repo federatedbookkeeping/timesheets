@@ -437,4 +437,12 @@ Time Tracking system backed by Google Calendar
 
 [GitHub](https://github.com/szymonkaliski/timav-standalone) (from https://github.com/merveilles/Time-Travelers#time-travellers)
  
+## 
 
+Can't create a new registration(working data), because even when we fill all the fields we get this message:`Some fields are missing in current regigration`. That means that we can't export data(no even with empty values)
+
+## [Tie tracker](https://github.com/peterpeterparker/tietracker)
+
+Export data choice is not workin
+
+g
