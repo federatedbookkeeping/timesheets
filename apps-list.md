@@ -274,7 +274,7 @@ Alphabetical list:
 | [Saas-Timetracker](https://github.com/appcasts/saas-timetracker) | Rails Software(server-side web application framework) as a Service Application for time tracking| ✔️  | ❌ | ❌ | ❌   |  ✔️   | Free |
 | [Sage HR](https://sage.hr/features/timesheets) | A simple, easy to use interface to adjust hours worked & submit a timesheet for approval to a manager | ✔️  | ✔ | JSON | ✔️  | ❌  | [7$/employee](https://sage.hr/pricing) |
 | [Samay](https://github.com/nexneo/samay) | Command line Time tracking and reporting | ✔️  |  ❌  |  ❌  | ❌ | ✔️   | Free |
-| [SAP Fieldglass](https://play.google.com/store/apps/details?id=com.godmodev.optime) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | ✔️   |  ❌  | Free(too good to be true) |
+| [SAP Fieldglass](https://play.google.com/store/apps/details?id=com.sap.ui5.timeentry) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | ✔️   |  ❌  | Free(too good to be true) |
 | [Savemytime](https://play.google.com/store/apps/details?id=com.godmodev.optime) | Mobile timetracker  | ✔️  |  CSV export (proffesional 3$) | ❌(?) |  ❌  | ❌ | 0-3$ |
 | [Scoro](https://www.scoro.com/time-management-software/) | Software as a Service (SaaS)| ✔️  |  HTTP/JSON |  HTTP/JSON  | ✔️  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
 | [SimpleTimeTracker-Razeeman](https://play.google.com/store/apps/details?id=com.razeeman.util.simpletimetracker) | Time tracker app | ✔️  | CSV | - |  ❌  | ✔️  | Free |
