@@ -187,16 +187,17 @@ Alphabetical list:
 | [Timecop](https://github.com/hamaluik/timecop) | A time tracking app that respects your privacy and gets the job done without getting too fancy.| ❌ | CSV | ❌ | ❌ | ✔️ | 0.79$ | 
 | [Timed](https://github.com/adeel/timed) | Timed is a command-line time tracker. | ❌ | ❌ | ❌ | ❌ | ✔️| Free | 
 | [Time Doctor](https://www.timedoctor.com/) | Automatic time tracking lets you know where the team excels and where it needs help so you can easily improve individual and overall performance.| ✔️ | [TimeDoctorCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeDoctor.CSV.md) [TimeDoctorExcel](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeDoctor-Excel.xls) | ❌ | ✔️ | ✔️ | 7-24$ | 
-| [Timeero](https://play.google.com/store/apps/details?id=com.timeero.time_clock) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| Timeglass | See glass | N/A | N/A | N/A | N/A | N/A | N/A | 
-| [Timelog](https://play.google.com/store/apps/details?id=dev.giall.timelog) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Timely](https://www.freshworks.com/apps/freshdesk/timely/) ([Android app](https://play.google.com/store/apps/details?id=com.timeapp.devlpmp) | Works with Freshdesk / Freshworks) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Timeero](https://play.google.com/store/apps/details?id=com.timeero.time_clock) | Track employee hours, mileage and location with our GPS time tracking app.| ✔️ | ❌ | ❌ | ❌ | ❌| 5-10$ | 
+| [Timeglass](http://timeglassapp.io/) | Time anything.
+Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ | 
+| [Timelog](https://play.google.com/store/apps/details?id=dev.giall.timelog) | Make time tracking a no-brainer. | ✔️ | ❌ | ❌ | ❌ | ❌ | 0-40$ | 
+| [Timely](https://www.freshworks.com/apps/freshdesk/timely/) ([Android app](https://play.google.com/store/apps/details?id=com.timeapp.devlpmp) | Works with Freshdesk / Freshworks) | ✔️ | [TimelyCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-CSV.md) [TimelyExcel](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-Excel.xlsx) [TimelyPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-PDF.pdf) | ❌ | ✔️ | ❌ | 8-20$ | 
 | [Time Manager](https://apps.nextcloud.com/apps/timemanager) ([repo](https://github.com/te-online/timemanager) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Time Meter](https://play.google.com/store/apps/details?id=com.rk.timemeter) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [TimePouch](https://github.com/chesles/timepouch) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Time Meter](https://play.google.com/store/apps/details?id=com.rk.timemeter) | Time Meter| ✔️ | ✔️ | ❌ | ❌ | ❌ | 0-5$| 
+| [TimePouch](https://github.com/chesles/timepouch) | timepouch is a command-line time tracking utility  | ❌| ❌ | ❌ | ❌ | ✔️ | Free | 
 | [TimePulse](https://github.com/TimePulse/TimePulse) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Recorder](https://play.google.com/store/apps/details?id=com.dynamicg.timerecording) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Timesheet](https://play.google.com/store/apps/details?id=robin.urenapp) | By Robin Dijkhof | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Timesheet](https://play.google.com/store/apps/details?id=robin.urenapp) | By Robin Dijkhof | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV.md) [TimeSheetPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
 | [Timesheet](https://play.google.com/store/apps/details?id=com.unidevsolutions.timesheet) | By Unidev Solutions | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Timesheet History](https://play.google.com/store/apps/details?id=com.forutan.app.timesheethistory) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Timesheet Mobile](https://apps.apple.com/us/app/timesheet-mobile/id560462162) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
