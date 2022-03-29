@@ -182,7 +182,10 @@ Alphabetical list:
 | [Timav](https://szymonkaliski.com/projects/timav/) | Time Tracking system backed by Google Calendar | ✔️  | - | - |  ❌  | ✔️  | Free |
 | [Time](https://github.com/wbbly/time) | React UI for Wobbly Time Tracker for the Teams | ✔️ | CSV | (❌) | ✔️ | ✔️ | 0-29.99$| 
 | [Time and Labor](https://timeandlabor.paychex.com/secure/) | See also Paychex | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | 
-| [TimeBro](https://www.timebro.com/) | Never lose a minute with time tracking again | ✔️ | [TimeBroCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-CSV.md)[TimeBroExcel](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-Excel.xlsx)[TimeBroPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-PDF.pdf)| ❌ | ❌ | ❌ | 14-30$| 
+| [TimeBro](https://www.timebro.com/) | Never lose a minute with time tracking again | ✔️ | 
+* [TimeBroCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-CSV.md)
+* [TimeBroExcel](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-Excel.xlsx)
+* [TimeBroPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-PDF.pdf)| ❌ | ❌ | ❌ | 14-30$| 
 | [Timecamp](https://www.timecamp.com/) | Track time against your projects and create reports and timesheets in seconds. | ✔️ | [TimecampCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timecamp-CSV.md) [TimeCampExcel](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeCamp-Excel.xls) [TimeCampPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeCamp-PDF.pdf) | ❌ | ✔️ | ❌ | 0-9$ | 
 | [Timecop](https://github.com/hamaluik/timecop) | A time tracking app that respects your privacy and gets the job done without getting too fancy.| ❌ | CSV | ❌ | ❌ | ✔️ | 0.79$ | 
 | [Timed](https://github.com/adeel/timed) | Timed is a command-line time tracker. | ❌ | ❌ | ❌ | ❌ | ✔️| Free | 
