@@ -186,7 +186,7 @@ Alphabetical list:
 | [Timecamp](https://www.timecamp.com/) | Track time against your projects and create reports and timesheets in seconds. | ✔️ | CSV/EXCEL/PDF | (import formats) | ✔️ | ❌ | 0-9$ | 
 | [Timecop](https://github.com/hamaluik/timecop) | A time tracking app that respects your privacy and gets the job done without getting too fancy.| ❌ | CSV | ❌ | ❌ | ✔️ | 0.79$ | 
 | [Timed](https://github.com/adeel/timed) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Time Doctor](https://www.freshworks.com/apps/freshdesk/time_doctor/) | Works with Freshdesk / Freshworks | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Time Doctor](https://www.timedoctor.com/) | Automatic time tracking lets you know where the team excels and where it needs help so you can easily improve individual and overall performance.| ✔️ | CSV | ❌ | ✔️ | ✔️ | 7-24$ | 
 | [Timeero](https://play.google.com/store/apps/details?id=com.timeero.time_clock) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | Timeglass | See glass | N/A | N/A | N/A | N/A | N/A | N/A | 
 | [Timelog](https://play.google.com/store/apps/details?id=dev.giall.timelog) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
