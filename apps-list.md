@@ -174,7 +174,7 @@ Alphabetical list:
 | [Team Timesheets](https://github.com/thdk/team-timesheets) | Time tracking web app | ✔️ | CSV/month  | - | ✔️  | ✔️  | Free |
 | [Tempo](https://www.tempo.io/) by Jira | Jira time tracking app  | ✔️  | XLS,CSV,PDF | - | ✔️  | ❌  | 10$+ |
 | [Teramind](https://www.teramind.co/landing/time-tracking-software)| Time Tracking Platform | ✔️ |  ✔️  | ✔️  | ✔️  | ❌  | 10$-25$ |
-| [ti](https://github.com/sharat87/ti) | Command line Time tracker | ✔️  | JSON | ❌(Only through terminal) |  ❌  | ✔️  | Free |
+| [ti](https://github.com/richmeta/ti) | Command line Time tracker | ✔️  | JSON | ❌(Only through terminal) |  ❌  | ✔️  | Free |
 | [Tietracker](https://github.com/peterpeterparker/tietracker) | Time tracker app | ✔️  | XLSX timesheets (Excel, LibreOffice, Numbers, etc),PDF| - |  ❌  | ✔️  | Free |
 | [Tick](https://www.tickspot.com/time-tracking-app) | Time tracking software |✔️  | CSV | JSON |  ❌  | ❌ | 0-149$ |
 | [Ticket Timer](https://www.freshworks.com/apps/freshdesk/ticket_timer/) |✔️  |Time tracker app, which uses tickets to save time(Need for [Freshworks](https://www.freshworks.com/)) account| - | - |  ❌  | ❌  | Free/Premium(price is not clear) |
