@@ -180,11 +180,11 @@ Alphabetical list:
 | [Ticket Timer](https://www.freshworks.com/apps/freshdesk/ticket_timer/) |✔️  |Time tracker app, which uses tickets to save time(Need for [Freshworks](https://www.freshworks.com/)) account| - | - |  ❌  | ❌  | Free/Premium(price is not clear) |
 | [Tim](https://github.com/MatthiasKauer/tim) |  CL for recording time logs(Handled by [hledger](https://hledger.org/)) | ✔️  | JSON | - |  ❌  | ✔️  | Free |
 | [Timav](https://szymonkaliski.com/projects/timav/) | Time Tracking system backed by Google Calendar | ✔️  | - | - |  ❌  | ✔️  | Free |
-| [Time](https://github.com/wbbly/time) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Time and Labor](https://timeandlabor.paychex.com/secure/) | See also Paychex | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [TimeBro](https://www.timebro.com/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Timecamp](https://www.freshworks.com/apps/freshdesk/timecamp_time_tracking) | Works with Freshdesk / Freshworks ([Android app](https://play.google.com/store/apps/details?id=com.timecamp.mobile)) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Timecop](https://github.com/hamaluik/timecop) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Time](https://github.com/wbbly/time) | React UI for Wobbly Time Tracker for the Teams | ✔️ | CSV | (❌) | ✔️ | ✔️ | 0-29.99$| 
+| [Time and Labor](https://timeandlabor.paychex.com/secure/) | See also Paychex | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | 
+| [TimeBro](https://www.timebro.com/) | Never lose a minute with time tracking again | ✔️ | EXCEL/PDF/CSV | ❌ | ❌ | ❌ | 14-30$| 
+| [Timecamp](https://www.timecamp.com/) | Track time against your projects and create reports and timesheets in seconds. | ✔️ | CSV/EXCEL/PDF | (import formats) | ✔️ | ❌ | 0-9$ | 
+| [Timecop](https://github.com/hamaluik/timecop) | A time tracking app that respects your privacy and gets the job done without getting too fancy.| ❌ | CSV | ❌ | ❌ | ✔️ | 0.79$ | 
 | [Timed](https://github.com/adeel/timed) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Doctor](https://www.freshworks.com/apps/freshdesk/time_doctor/) | Works with Freshdesk / Freshworks | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Timeero](https://play.google.com/store/apps/details?id=com.timeero.time_clock) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
