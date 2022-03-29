@@ -121,7 +121,7 @@ Alphabetical list:
 | [Onehour-app](https://github.com/fayeed/Onehour-app) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [One Inch Punch](https://github.com/ymendel/one_inch_punch) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [On The Clock](https://apps.apple.com/us/app/ontheclock-employee-time-clock/id1029560603) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Page Timer](https://github.com/google/page-timer) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Page Timer](https://github.com/google/page-timer) | A Chrome plugin that measures the time you spend on a task (equated to how long you are on a specific url. | not in our context | you could probably do an export from your local storage | not really |  | yes | free | 
 | [Parent-Child time tracker](https://www.freshworks.com/apps/freshdesk/parent-child_time_tracker/) | Works with Freshdesk / Freshworks | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Paychex Flex](https://www.paychex.com/time-attendance) (see also Stratustime and "Time and Labor") | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Plain Text Accounting](https://plaintextaccounting.org/#time-logging) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
