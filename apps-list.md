@@ -209,7 +209,7 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | [Timesheets](https://github.com/hardchor/timesheets) | By hardchor | ❌ | ❌ | ❌ | ❌| ✔️ | Free | 
 | [Timesheets](https://play.google.com/store/apps/details?id=com.singlebyte.harvest) | By SingleByte | ❌  | ❌ | ❌ | ❌ | ❌ | Free | 
 | Timesheets Time Tracker | See Veryfi | ✔️ | [TimeSheetVerifyUiJSON](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetVerifyUiJSON.md | ❌ | ✔️ | ❌ | 0-500$ |
-| [Timestrap](https://github.com/overshard/timestrap) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Timestrap](https://github.com/overshard/timestrap) | Full export support in multiple formats | ❌ | ✔️ | ❌ | ❌ | ✔️ | Free | 
 | [TimeTell](https://timetell.com/software-modules/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Timetip](https://github.com/rstacruz/timetip) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Track](https://play.google.com/store/apps/details?id=com.time_tracking.user006test.timetracking) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
