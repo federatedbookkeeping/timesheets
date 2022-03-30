@@ -211,7 +211,7 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | Timesheets Time Tracker | See Veryfi | ✔️ | [TimeSheetVerifyUiJSON](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetVerifyUiJSON.md | ❌ | ✔️ | ❌ | 0-500$ |
 | [Timestrap](https://github.com/overshard/timestrap) | Full export support in multiple formats | ❌ | ✔️ | ❌ | ❌ | ✔️ | Free | 
 | [TimeTell](https://timetell.com/software-modules/) | TimeTell | ❌ | ✔️ | ❌ | ❌ | ❌ | Not find | 
-| [Timetip](https://github.com/rstacruz/timetip) | Deliciously-minimal time tracker for the command-line | ✔️ | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Timetip](https://github.com/rstacruz/timetip) | Deliciously-minimal time tracker for the command-line | ✔️ | [TimeSheetTimeTrackerExcel](./data-formats/timeTip-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [Time Track](https://play.google.com/store/apps/details?id=com.time_tracking.user006test.timetracking) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [TimeTrack](https://github.com/torsten/TimeTrack) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [TimeTracker](https://github.com/knewter/time-tracker) | By Knewter | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
