@@ -126,7 +126,7 @@ Alphabetical list:
 | [Paychex Flex](https://www.paychex.com/time-attendance) (see also Stratustime and "Time and Labor") | Automated Tracking and Reporting, flexible punch options. Looks like for reasonable size companies, maybe manufacturing type work. |  ✔️ | Not sure | Not sure | ✔️  |  ✔️  | Need to get a quote. | 
 | [Plain Text Accounting](https://plaintextaccounting.org/#time-logging) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Personio](https://www.personio.com/product/attendance-tracking/) | Professional attendance tracker whereby employees can enter time and managers can approve it. (In order to test you need to book a demo.)  |  ✔️  | Not Sure | Not sure | ✔️ | ❌ | Not listed | 
-| [Planet](https://github.com/xvw/planet)| (from https://github.com/merveilles/Time-Travelers#time-travellers) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Planet](https://github.com/xvw/planet)| (from https://github.com/merveilles/Time-Travelers#time-travellers). Written in a language called OCaml, says WIP for a long time. | ❌  | N/A | N/A | Log Github Issue | ✔️  | Free | 
 | [Pom](https://github.com/tobym/pom) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Pomidorus](https://github.com/tatyshev/pomidorus) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Pomobot](https://github.com/Intery/PomoBot) | Discord bot | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
