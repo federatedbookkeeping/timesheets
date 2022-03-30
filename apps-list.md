@@ -165,7 +165,7 @@ Alphabetical list:
 | [StreaDeck-Toggl](https://github.com/tobimori/streamdeck-toggl) |Time tracking using [Elgato Stream Deck](https://www.elgato.com/en/stream-deck) and [Toggl Track](https://toggl.com/track/) | ✔️  | JSON | JSON |  ✔️   | ✔️  | Free |
 | [Super Productivity](https://github.com/johannesjo/super-productivity) | todo list app with integrated [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing) and time tracking capabilities | ✔️  | (waiting for response) | (waiting for response) | ✔️   |  ❌  | Free |
 | [swdc-vscode](https://github.com/swdotcom/swdc-vscode) | Time-tracking plugin for Visual Studio Code | ✔️   | (email sent) | (email sent) |  ✔️  | ✔️  | Free |
-| [SwipeTimes](https://play.google.com/store/apps/details?id=lc.st.free) | Time tracker app | ✔️    | Excel,PDF, JSON,XML,[swipetimes-CSV](./data-formats/swipetimes-CSV.md)  | - |  ❌  | ❌ |    |
+| [SwipeTimes](https://play.google.com/store/apps/details?id=lc.st.free) | Time tracker app | ✔️    | [Excel](./data-formats/swipetimes-XLS.xls),[PDF](./data-formats/swipetimes-PDF.pdf),[XML](./data-formats/swipetimes-XML.md),[swipetimes-CSV](./data-formats/swipetimes-CSV.md)  | - |  ❌  | ❌ |    |
 | [Syncrew](https://syncrew.com/features.shtml) | Mobile workforce managment platform   | ✔️   | ❌  |  ❌  |  ❌  | ✔️  |  ❌  | 5$-25$
 | [Synerion](https://www.synerion.com/time-and-attendance-software/) | Workforce managment software | ✔️ | - | -  |  ✔️  | ❌  | 2$+ |
 | [TagTime](https://github.com/tagtime/TagTime) |At unpredictable [3] times, a box pops up and asks, what are you doing right at this moment |  ❌ | - | - |  ❌  | ✔️  | Free |
@@ -174,9 +174,9 @@ Alphabetical list:
 | [Team Timesheets](https://github.com/thdk/team-timesheets) | Time tracking web app | ✔️ | CSV/month  | - | ✔️  | ✔️  | Free |
 | [Tempo](https://www.tempo.io/) by Jira | Jira time tracking app  | ✔️  | XLS,CSV,PDF | - | ✔️  | ❌  | 10$+ |
 | [Teramind](https://www.teramind.co/landing/time-tracking-software)| Time Tracking Platform | ✔️ |  ✔️  | ✔️  | ✔️  | ❌  | 10$-25$ |
-| [ti](https://github.com/richmeta/ti) | Command line Time tracker | ✔️  | JSON | ❌(Only through terminal) |  ❌  | ✔️  | Free |
+| [ti](https://github.com/richmeta/ti) | Command line Time tracker | ✔️  | [JSON](./data-formats/ti-JSON.md) | ❌(Only through terminal) |  ❌  | ✔️  | Free |
 | [Tietracker](https://github.com/peterpeterparker/tietracker) | Time tracker app | ✔️  | XLSX timesheets (Excel, LibreOffice, Numbers, etc),PDF| - |  ❌  | ✔️  | Free |
-| [Tick](https://www.tickspot.com/time-tracking-app) | Time tracking software |✔️  | CSV | JSON |  ❌  | ❌ | 0-149$ |
+| [Tick](https://www.tickspot.com/time-tracking-app) | Time tracking software |✔️  | [CSV](./data-formats/tick-CSV.md)/[JSON](./data-formats/tick-JSON-GET.md)  | [JSON](./data-formats/tick-JSON-POST.md) |  ❌  | ❌ | 0-149$ |
 | [Ticket Timer](https://www.freshworks.com/apps/freshdesk/ticket_timer/) |✔️  |Time tracker app, which uses tickets to save time(Need for [Freshworks](https://www.freshworks.com/)) account| - | - |  ❌  | ❌  | Free/Premium(price is not clear) |
 | [Tim](https://github.com/MatthiasKauer/tim) |  CL for recording time logs(Handled by [hledger](https://hledger.org/)) | ✔️  | JSON | - |  ❌  | ✔️  | Free |
 | [Timav](https://szymonkaliski.com/projects/timav/) | Time Tracking system backed by Google Calendar | ✔️  | - | - |  ❌  | ✔️  | Free |
