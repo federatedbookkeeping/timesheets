@@ -221,10 +221,10 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | [Time Tracker](https://apps.nextcloud.com/apps/timetracker) | On Nextcloud | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Tracker](https://play.google.com/store/apps/details?id=zzz1zzz.tracktime) | By Zafer Ertas | ✔️ | ✔️ | ❌ | ❌ | ❌ | 6$ | 
 | [Time Tracker - Timesheet](https://play.google.com/store/apps/details?id=ch.gridvision.pbtm.androidtimerecorder) | By Gridvision | ✔️ | [TimeTrackerTimesheetCSV](./data-formats/timeTrackerTimesheet-CSV.md) | ❌ | ❌ | ❌ | Free | 
-| [Time Tracker CLI](https://github.com/danibram/time-tracker-cli) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Time Tracker CLI](https://github.com/danibram/time-tracker-cli) | Node JS cli application | ✔️ | [TimeTrackerCliCSV](./data-formats/timeTrackerCli-CSV.md) [TimeTrackerCliJSON](./data-formats/timeTrackerCli-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker Mac](https://github.com/rburgst/time-tracker-mac) | By Rainer Burgstaller | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Tracker Mac](https://github.com/avh4/time-tracker-for-mac) | By Aaron VonderHaar, archived? | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Time Tracking](https://github.com/derhuerst/time-tracking) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Time Tracking](https://github.com/derhuerst/time-tracking) | Minimalistic command line time tracking | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
 | [Timetrackrs](https://github.com/phiresky/timetrackrs) | WIP | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Timetrap](https://github.com/samg/timetrap) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Tracker Flutter Course](https://github.com/bizz84/time_tracker_flutter_course) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
