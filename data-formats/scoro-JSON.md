@@ -112,9 +112,7 @@ Example response body:
 | event\_type         | String                                    | Event type, task or cal.                                                                                                                             |
 | calendar\_event\_id | Integer                                   | Calendar event id for consolidated time entry.                                                                                                       |
 | time\_entry\_type   | String                                    | Time entry type, task or cal.                                                                                                                        |
-
-
-## Field names explained | start\_datetime     | Datetime (DATE\_ISO8601 - Y-m-d\\TH:i:sP) | Planned start date and time.                                                                                                                         |
+| start\_datetime     | Datetime (DATE\_ISO8601 - Y-m-d\\TH:i:sP) | Planned start date and time.                                                                                                                         |
 | end\_datetime       | Datetime (DATE\_ISO8601 - Y-m-d\\TH:i:sP) | Planned end date and time.                                                                                                                           |
 | duration            | Time (HH:ii:ss)                           | Time entry duration. Rounded to the nearest minute.                                                                                                  |
 | billable\_duration  | Time (HH:ii:ss)                           | Billable duration for time entry. Only used if site has billable hours feature activated. Rounded to the nearest minute.                             |
@@ -122,8 +120,8 @@ Example response body:
 | is\_confirmed       | Boolean                                   | Is the time entry confirmed or not.                                                                                                                  |
 | is\_billable        | Boolean                                   | Is the time entry billable or not.                                                                                                                   |
 | completed\_datetime | Datetime (DATE\_ISO8601 - Y-m-d\\TH:i:sP) | Date and time when the time entry was completed. Will be set to current time, if time entry is completed and no datetime provided.                   |
-| is\_locked          | Boolean                                   | Is the time entry locked or not. The parameter is available only if the ["Use time locking" setting](https://help.scoro.com/manuals/383) is enabled. |
+| is\_locked          | Boolean                                   | Is the time entry locked or not. The parameter is available only if the ["Use time locking" setting](https://help.scoro.com/manuals/383) is enabled. |
 | permissions         | Array                                     | Object user permissions. Used only for user based API                                                                                                |
 | modified\_date      | Datetime (DATE\_ISO8601 - Y-m-d\\TH:i:sP) | Date and time when the time entry was modified. If a new time entry is added - it will be set to the current time (created\_date).                   |
-| is\_deleted         | Boolean                                   | Is deleted. Use 'include\_deleted = 1' in [request object](https://api.scoro.com/api/#filters) to get deleted objects to response as well.           |
+| is\_deleted         | Boolean                                   | Is deleted. Use 'include\_deleted = 1' in [request object](https://api.scoro.com/api/#filters) to get deleted objects to response as well.           |
 | deleted\_date       | Datetime (DATE\_ISO8601 - Y-m-d\\TH:i:sP) | The date when object was deleted.                                                                                                                    |
