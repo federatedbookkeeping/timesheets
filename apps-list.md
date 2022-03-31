@@ -191,7 +191,7 @@ Alphabetical list:
 | [Timeglass](http://timeglassapp.io/) | Time anything.
 Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ | 
 | [Timelog](https://play.google.com/store/apps/details?id=dev.giall.timelog) | Make time tracking a no-brainer. | ✔️ | ❌ | ❌ | ❌ | ❌ | 0-40$ | 
-| [Timely](https://www.freshworks.com/apps/freshdesk/timely/) ([Android app](https://play.google.com/store/apps/details?id=com.timeapp.devlpmp) | Works with Freshdesk / Freshworks) | ✔️ | [TimelyCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-CSV.md) [TimelyExcel](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-Excel.xlsx) [TimelyPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-PDF.pdf) | ❌ | ✔️ | ❌ | 8-20$ | 
+| [Timely](https://www.freshworks.com/apps/freshdesk/timely/) ([Android app](https://play.google.com/store/apps/details?id=com.timeapp.devlpmp) | Works with Freshdesk / Freshworks) | ✔️ | [TimelyCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-CSV.md) [TimelyExcel](./data-formats/timely-Excel.md) [TimelyPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-PDF.pdf) | ❌ | ✔️ | ❌ | 8-20$ | 
 | [Time Manager](https://apps.nextcloud.com/apps/timemanager) ([repo](https://github.com/te-online/timemanager) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Meter](https://play.google.com/store/apps/details?id=com.rk.timemeter) | Time Meter| ✔️ | ✔️ | ❌ | ❌ | ❌ | 0-5$| 
 | [TimePouch](https://github.com/chesles/timepouch) | timepouch is a command-line time tracking utility  | ❌| ❌ | ❌ | ❌ | ✔️ | Free | 
