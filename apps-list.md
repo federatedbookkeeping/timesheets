@@ -216,7 +216,7 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | [Time Track](https://github.com/torsten/TimeTrack) | A minimalist time tracking app for Mac OS | ❌ | ❌ | ❌ | ❌ | ✔️ | Free | 
 | [TimeTracker](https://github.com/knewter/time-tracker) | By Knewter | ❌ | ❌ | ❌ | ❌ | ✔️ | Free | 
 | [Timetracker](https://github.com/anuko/timetracker) | By Anuko | ✔️ | [TimeTrackerCSV](./data-formats/timeTracker-CSV.md) [TimeTrackerPDF](./data-formats/timeTracker-PDF.pdf) [TimeTrackerXML](./data-formats/timeTracker-XML.md) | ✔️ | ✔️ | ✔️ | Free | 
-| [Time Tracker](https://play.google.com/store/apps/details?id=com.cg.android.ebillitytimetracker) | By eBillity | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerDaily-CSV.md) [TimeTrackerExcel](./data-formats/timeTrackerDaily-Excel.xlsx)| ❌ | ✔️ | ❌ | 6-24$ | 
+| [Time Tracker](https://play.google.com/store/apps/details?id=com.cg.android.ebillitytimetracker) | By eBillity | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerDaily-CSV.md) [TimeTrackerExcel](./data-formats/timeTrackerDaily-Excel.md)| ❌ | ✔️ | ❌ | 6-24$ | 
 | [Timetracker](https://github.com/eyscode/timetracker) | By Eysenk, CLI client for BairesDev TimeTracker | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Tracker](https://apps.nextcloud.com/apps/timetracker) | On Nextcloud | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Tracker](https://play.google.com/store/apps/details?id=zzz1zzz.tracktime) | By Zafer Ertas | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
