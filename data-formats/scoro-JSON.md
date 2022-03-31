@@ -47,6 +47,7 @@ Example response body:
     }
 }
 ```
+
 ## Import 
 
 Adding new and modifying current time entries. Event ID is mandatory for new time entries. Adding "return_data" parameter will control if object data will be returned with successful request. You can only modify invoice_line_id value on time entries related to calendar events. Use the calendar API to modify the event itself if you need to change anything else
@@ -66,9 +67,7 @@ Example request body:
         "event_id": "1"
     }
 }
-
-```.
-
+```
 
 Example response body:
 
