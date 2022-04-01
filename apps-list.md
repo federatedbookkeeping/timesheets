@@ -127,7 +127,7 @@ Alphabetical list:
 | [Plain Text Accounting](https://plaintextaccounting.org/#time-logging) | Time cli tool that can be used with hledger | I couldn't get it to work on Mac, but it may work on Windows or Linux| JSON (start, end, taskname) |  ❌ | Log a Git ticket |  ✔️ | Free| 
 | [Personio](https://www.personio.com/product/attendance-tracking/) | Professional attendance tracker whereby employees can enter time and managers can approve it. (In order to test you need to book a demo.)  |  ✔️  | Not Sure | Not sure | ✔️ | ❌ | Not listed | 
 | [Planet](https://github.com/xvw/planet)| (from https://github.com/merveilles/Time-Travelers#time-travellers). Written in a language called OCaml, says WIP for a long time. | ❌  | N/A | N/A | Log Github Issue | ✔️  | Free | 
-| [Pom](https://github.com/tobym/pom) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Pom](https://github.com/tobym/pom) | A minimalist pomodoro-style time-tracker. Shell script. No data saved. |  ✔️ | N/A | N/A | ❌  |  ✔️  | Free | 
 | [Pomidorus](https://github.com/tatyshev/pomidorus) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Pomobot](https://github.com/Intery/PomoBot) | Discord bot | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Pomodo on Rails](https://github.com/dima/pomodo_on_rails) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
