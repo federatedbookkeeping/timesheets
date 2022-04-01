@@ -226,7 +226,7 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | [Time Tracker Mac](https://github.com/avh4/time-tracker-for-mac) | By Aaron VonderHaar, archived? | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Tracking](https://github.com/derhuerst/time-tracking) | Minimalistic command line time tracking | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
 | [Timetrackrs](https://github.com/phiresky/timetrackrs) | WIP | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Timetrap](https://github.com/samg/timetrap) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Timetrap](https://github.com/samg/timetrap) | simple command line time tracker | ✔️ | [TimeTrapCliCSV](./data-formats/timetrapCli-CSV.md) | ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker Flutter Course](https://github.com/bizz84/time_tracker_flutter_course) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Timewarrior](https://timewarrior.net/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Tipee](https://www.tipee.ch/gestion-du-temps/timesheet/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
