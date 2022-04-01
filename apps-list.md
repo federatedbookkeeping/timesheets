@@ -227,8 +227,8 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | [Time Tracking](https://github.com/derhuerst/time-tracking) | Minimalistic command line time tracking | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
 | [Timetrackrs](https://github.com/phiresky/timetrackrs) | WIP | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Timetrap](https://github.com/samg/timetrap) | simple command line time tracker | ✔️ | [TimeTrapCliCSV](./data-formats/timetrapCli-CSV.md) | ❌ | ❌ | ✔️ | Free | 
-| [Time Tracker Flutter Course](https://github.com/bizz84/time_tracker_flutter_course) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Timewarrior](https://timewarrior.net/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Time Tracker Flutter Course](https://github.com/bizz84/time_tracker_flutter_course) | Time Tracker Flutter Course | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
+| [Timewarrior](https://timewarrior.net/) | Timewarrior | ✔️ | [TimeWarriorJSON](./data-formats/timewarrior-JSON.md) | ❌ | ❌ | ✔️ | Free | 
 | [Tipee](https://www.tipee.ch/gestion-du-temps/timesheet/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Titra](https://github.com/kromitgmbh/titra) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Tmetric](https://tmetric.com/) ([Freshdesk plugin](https://www.freshworks.com/apps/freshdesk/tmetric_-_freshdesk_time_tracking_app/)) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
