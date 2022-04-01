@@ -196,7 +196,7 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | [Time Meter](https://play.google.com/store/apps/details?id=com.rk.timemeter) | Time Meter| ✔️ | ✔️ | ❌ | ❌ | ❌ | 0-5$| 
 | [TimePouch](https://github.com/chesles/timepouch) | timepouch is a command-line time tracking utility  | ❌| ❌ | ❌ | ❌ | ✔️ | Free | 
 | [TimePulse](https://github.com/TimePulse/TimePulse) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Time Recorder](https://play.google.com/store/apps/details?id=com.dynamicg.timerecording) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Time Recorder](https://play.google.com/store/apps/details?id=com.dynamicg.timerecording) | Time Recorder | ✔️ | [TimeRecordExcel](./data-formats/timeRecorder-Excel.md) [TimeRecorderPDF](./data-formats/timeRecorder-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
 | [Timesheet](https://play.google.com/store/apps/details?id=robin.urenapp) | By Robin Dijkhof | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV.md) [TimeSheetPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
 | [Timesheet](https://play.google.com/store/apps/details?id=com.unidevsolutions.timesheet) | By Unidev Solutions | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV-1.md) | ❌ | ❌| ❌ | 0-5.35$ | 
 | [Timesheet History](https://play.google.com/store/apps/details?id=com.forutan.app.timesheethistory) | by Forutan Software | ✔️ | Excel - but need pay before export | ❌ | ❌ | ❌ | 2.24$ | 
