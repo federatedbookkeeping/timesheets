@@ -130,7 +130,7 @@ Alphabetical list:
 | [Pom](https://github.com/tobym/pom) | A minimalist pomodoro-style time-tracker. Shell script. No data saved. |  ✔️ | N/A | N/A | ❌  |  ✔️  | Free | 
 | [Pomidorus](https://github.com/tatyshev/pomidorus) | Very neat pomodoro-style timer. No data saved.| ✔️  | N/A | N/A | GitHub ticket | ✔️  | Free | 
 | [Pomobot](https://github.com/Intery/PomoBot) | Discord bot. Manage group study. Show stats. Can show history with a command in Discord.  | ✔️ | N/A | N/A | Log Github issue| ✔️  | Free | 
-| [Pomodo on Rails](https://github.com/dima/pomodo_on_rails) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Pomodo on Rails](https://github.com/dima/pomodo_on_rails) | RESTful Flex Development Demo App (Rails Version) |  ❌  | ❌  | ❌  |  ❌ | ✔️  | Free | 
 | [Pomodoro Logger](https://github.com/zxch3n/PomodoroLogger) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Procrastitracker](https://github.com/aardappel/procrastitracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | Project Hamster | See Hamster | N/A | N/A | N/A | N/A | N/A | N/A |
