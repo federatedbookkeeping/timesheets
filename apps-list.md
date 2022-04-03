@@ -155,28 +155,27 @@ Alphabetical list:
 | [SAP Fieldglass](https://play.google.com/store/apps/details?id=com.sap.ui5.timeentry) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | ✔️   |  ❌  | Free(too good to be true) |
 | [Savemytime](https://play.google.com/store/apps/details?id=com.godmodev.optime) | Mobile timetracker  | ✔️  | [CSV](./data-formats/saveMyTime-CSV.md) (proffesional 3$) | ❌(?) |  ❌  | ❌ | 0-3$ |
 | [Scoro](https://www.scoro.com/time-management-software/) | Software as a Service (SaaS)| ✔️  | [JSON](./data-formats/scoro-JSON.md) |  [JSON](./data-formats/scoro-JSON.md)  | ✔️  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
-| [SimpleTimeTracker-Razeeman](https://play.google.com/store/apps/details?id=com.razeeman.util.simpletimetracker) | Time tracker app | ✔️  | [CSV](./data-formats/simpleTimeTracker-CSV.md) | - |  ❌  | ✔️  | Free |
+| [SimpleTimeTracker-Razeeman](https://play.google.com/store/apps/details?id=com.razeeman.util.simpletimetracker) | Time tracker app | ✔️  | [CSV](./data-formats/simpleTimeTracker-CSV.md) | N/A |  ❌  | ✔️  | Free |
 | [Simple TimeTracker with Notion](https://apps.apple.com/nl/app/simple-timetracker-with-notion/id1590343222) | IOS app time tracker | ✔️  | ❌ |  ❌ |  ❌  |  ❌ | Free |
 | [SINC](https://play.google.com/store/apps/details?id=com.sinc.sincandroid) | Timecard And Location Tracking App | ✔️   | PDF/Excel(the excel file can be opened and saved as a CSV file) |  ❌ | ✔️    | ❌ | 0-50$ |
-| [Smarter Time](https://play.google.com/store/apps/details?id=com.smartertime) | Time tracker app for iOS,Web and  Android | ✔️  | [CSV](./data-formats/smarterTime-CSV.md) | - | ❌ | ❌ | 0-5$ |
-| [Sprint App](https://github.com/macfanatic/SprintApp) | Project management and time tracking app | ✔️  | ❌(Html response. No clear doc, conclusion made by looking the code) | - |  ✔️  | ✔️  | Free |
-| [Staple](https://github.com/bertinetto/staple) | Staple tracker. CVPR 2017: End-To-End Representation Learning for Correlation Filter Based Tracking | ❌ | -  | -  | - | ✔️  | Free |
+| [Smarter Time](https://play.google.com/store/apps/details?id=com.smartertime) | Time tracker app for iOS,Web and  Android | ✔️  | [CSV](./data-formats/smarterTime-CSV.md) | N/A | ❌ | ❌ | 0-5$ |
+| [Sprint App](https://github.com/macfanatic/SprintApp) | Project management and time tracking app | ✔️  | ❌(Html response. No clear doc, conclusion made by looking the code) | N/A |  ✔️  | ✔️  | Free |
+| [Staple](https://github.com/bertinetto/staple) | Staple tracker. CVPR 2017: End-To-End Representation Learning for Correlation Filter Based Tracking | ❌ | N/A  | N/A  | N/A | ✔️  | Free |
 | [Stratustime](https://stratustime.centralservers.com/) |  Employees can record their time  | ✔️   | [JSON](./data-formats/stratustime-JSON.md), [XML](./data-formats/stratustime-XML.md)| [XML](./data-formats/stratustime-XML.md), [JSON](./data-formats/stratustime-JSON.md)  |  ✔️  | ❌  | 4$+/employee |
 | [StreaDeck-Toggl](https://github.com/tobimori/streamdeck-toggl) |Time tracking using [Elgato Stream Deck](https://www.elgato.com/en/stream-deck) and [Toggl Track](https://toggl.com/track/) | ✔️  | JSON | JSON |  ✔️   | ✔️  | Free |
-| [Super Productivity](https://github.com/johannesjo/super-productivity) | todo list app with integrated [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing) and time tracking capabilities | ✔️  | (waiting for response) | (waiting for response) | ✔️   |  ❌  | Free |
-| [swdc-vscode](https://github.com/swdotcom/swdc-vscode) | Time-tracking plugin for Visual Studio Code | ✔️   | (email sent) | (email sent) |  ✔️  | ✔️  | Free |
-| [SwipeTimes](https://play.google.com/store/apps/details?id=lc.st.free) | Time tracker app | ✔️    | [Excel](./data-formats/swipetimes-XLS.xls),[PDF](./data-formats/swipetimes-PDF.pdf),[XML](./data-formats/swipetimes-XML.md),[CSV](./data-formats/swipetimes-CSV.md)  | - |  ❌  | ❌ |    |
+| [Super Productivity](https://github.com/johannesjo/super-productivity) | todo list app with integrated [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing) and time tracking capabilities | ✔️  | N/A | N/A | ✔️   |  ❌  | Free |
+| [swdc-vscode](https://github.com/swdotcom/swdc-vscode) | Time-tracking plugin for Visual Studio Code | ✔️   | N/A | N/A |  ✔️  | ✔️  | Free |
+| [SwipeTimes](https://play.google.com/store/apps/details?id=lc.st.free) | Time tracker app | ✔️    | [Excel](./data-formats/swipetimes-XLS.xls),[PDF](./data-formats/swipetimes-PDF.pdf),[XML](./data-formats/swipetimes-XML.md),[CSV](./data-formats/swipetimes-CSV.md)  | N/A |  ❌  | ❌ |    |
 | [Syncrew](https://syncrew.com/features.shtml) | Mobile workforce managment platform   | ✔️   | ❌  |  ❌  |  ❌  | ✔️  |  ❌  | 5$-25$
-| [Synerion](https://www.synerion.com/time-and-attendance-software/) | Workforce managment software | ✔️ | - | -  |  ✔️  | ❌  | 2$+ |
-| [TagTime](https://github.com/tagtime/TagTime) |At unpredictable [3] times, a box pops up and asks, what are you doing right at this moment |  ❌ | - | - |  ❌  | ✔️  | Free |
-| [Task Tracker](https://apps.apple.com/nl/app/task-tracker-time-tracking-for-people/id1114876492)| Task tracker app | ❌  | - | -  | ✔️ | | ❌  | ? |
-| [Taxi](https://github.com/sephii/taxi) | CLI to time tracking backends | CLI to time tracking backends |  ✔️  | -  |  ❌  | ✔️  | Free |
-| [Team Timesheets](https://github.com/thdk/team-timesheets) | Time tracking web app | ✔️ | CSV/month  | - | ✔️  | ✔️  | Free |
-| [Tempo](https://www.tempo.io/) by Jira | Jira time tracking app  | ✔️  | XLS,CSV,PDF | - | ✔️  | ❌  | 10$+ |
+| [Synerion](https://www.synerion.com/time-and-attendance-software/) | Workforce managment software | ✔️ | N/A | N/A  |  ✔️  | ❌  | 2$+ |
+| [TagTime](https://github.com/tagtime/TagTime) |At unpredictable [3] times, a box pops up and asks, what are you doing right at this moment |  ❌ | N/A | N/A |  ❌  | ✔️  | Free |
+| [Task Tracker](https://apps.apple.com/nl/app/task-tracker-time-tracking-for-people/id1114876492)| Task tracker app | ❌  | N/A | N/A  | ✔️ | | ❌  | N/A |
+| [Taxi](https://github.com/sephii/taxi) | CLI to time tracking backends | CLI to time tracking backends |  ✔️  | N/A  |  ❌  | ✔️  | Free |
+| [Team Timesheets](https://github.com/thdk/team-timesheets) | Time tracking web app | ✔️ | CSV/month  | N/A | ✔️  | ✔️  | Free |
+| [Tempo](https://www.tempo.io/) by Jira | Jira time tracking app  | ✔️  | XLS,CSV,PDF | N/A | ✔️  | ❌  | 10$+ |
 | [Teramind](https://www.teramind.co/landing/time-tracking-software)| Time Tracking Platform | ✔️ |  ✔️  | ✔️  | ✔️  | ❌  | 10$-25$ |
-| [ti](https://github.com/richmeta/ti) | Command line Time tracker | ✔️  | [
-](./data-formats/ti-JSON.md) | ❌(Only through terminal) |  ❌  | ✔️  | Free |
-| [Tietracker](https://github.com/peterpeterparker/tietracker) | Time tracker app | ✔️  | XLSX timesheets (Excel, LibreOffice, Numbers, etc),PDF| - |  ❌  | ✔️  | Free |
+| [ti](https://github.com/richmeta/ti) | Command line Time tracker | ✔️  | [JSON](./data-formats/ti-JSON.md) | ❌ |  ❌  | ✔️  | Free |
+| [Tietracker](https://github.com/peterpeterparker/tietracker) | Time tracker app | ✔️  | XLSX timesheets (Excel, LibreOffice, Numbers, etc),PDF| N/A |  ❌  | ✔️  | Free |
 | [Tick](https://www.tickspot.com/time-tracking-app) | Time tracking software |✔️  | [CSV](./data-formats/tick-CSV.md)/[JSON](./data-formats/tick-JSON.md)  | [JSON](./data-formats/tick-JSON.md) |  ❌  | ❌ | 0-149$ |
 | [Ticket Timer](https://www.freshworks.com/apps/freshdesk/ticket_timer/)  |Time tracker app, which uses tickets to save time(Need for [Freshworks](https://www.freshworks.com/)) account | ✔️  - | - |  ❌  | ❌  | Free/Premium(price is not clear) |
 | [Tim](https://github.com/MatthiasKauer/tim) |  CL for recording time logs(Handled by [hledger](https://hledger.org/)) | ✔️  | JSON | - |  ❌  | ✔️  | Free |
