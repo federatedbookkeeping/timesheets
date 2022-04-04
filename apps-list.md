@@ -218,7 +218,7 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | [Timetracker](https://github.com/anuko/timetracker) | By Anuko | ✔️ | [TimeTrackerCSV](./data-formats/timeTracker-CSV.md) [TimeTrackerPDF](./data-formats/timeTracker-PDF.pdf) [TimeTrackerXML](./data-formats/timeTracker-XML.md) | ✔️ | ✔️ | ✔️ | Free | 
 | [Time Tracker](https://play.google.com/store/apps/details?id=com.cg.android.ebillitytimetracker) | By eBillity | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerDaily-CSV.md) [TimeTrackerExcel](./data-formats/timeTrackerDaily-Excel.md)| ❌ | ✔️ | ❌ | 6-24$ | 
 | [Timetracker](https://github.com/eyscode/timetracker) | By Eysenk, CLI client for BairesDev TimeTracker | ❌ | CSV | ❌ | ❌ | ✔️ | Free | 
-| [Time Tracker](https://apps.nextcloud.com/apps/timetracker) | On Nextcloud | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Time Tracker](https://apps.nextcloud.com/apps/timetracker) | On Nextcloud | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerNextcloud-CSV.md) [TimeTrackerJSON](./data-formats/timeTrackerNextcloud-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker](https://play.google.com/store/apps/details?id=zzz1zzz.tracktime) | By Zafer Ertas | ✔️ | ✔️ | ❌ | ❌ | ❌ | 6$ | 
 | [Time Tracker - Timesheet](https://play.google.com/store/apps/details?id=ch.gridvision.pbtm.androidtimerecorder) | By Gridvision | ✔️ | [TimeTrackerTimesheetCSV](./data-formats/timeTrackerTimesheet-CSV.md) | ❌ | ❌ | ❌ | Free | 
 | [Time Tracker CLI](https://github.com/danibram/time-tracker-cli) | Node JS cli application | ✔️ | [TimeTrackerCliCSV](./data-formats/timeTrackerCli-CSV.md) [TimeTrackerCliJSON](./data-formats/timeTrackerCli-JSON.md)| ❌ | ❌ | ✔️ | Free | 
