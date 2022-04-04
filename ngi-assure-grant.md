@@ -1,6 +1,6 @@
 # Federated Timesheets
 
-The URL of this document is https://github.com/federatedbookkeeping/timesheets/edit/main/ngi-assure-grant.md.
+The URL of this document is https://github.com/federatedbookkeeping/timesheets/blob/main/ngi-assure-grant.md .
 
 (these are the round-2 answers, see below for round-1 answers)
 
