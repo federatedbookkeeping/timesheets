@@ -1,7 +1,6 @@
 # Federated Timesheets
 
-[![hackmd-github-sync-badge](https://hackmd.io/bqGXnK3kRiyjhziz04-gIw/badge)](https://hackmd.io/bqGXnK3kRiyjhziz04-gIw)
-
+The URL of this document is https://github.com/federatedbookkeeping/timesheets/edit/main/ngi-assure-grant.md.
 
 (these are the round-2 answers, see below for round-1 answers)
 
