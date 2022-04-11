@@ -46,32 +46,32 @@ Alphabetical list:
 | [Crick](https://github.com/TailorDev/crick) |  backend for Watson, archived. | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Crono](https://github.com/bianchins/crono) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [ctt](https://code.ungleich.ch/ungleich-public/ctt) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Darkyenus Time Tracker](https://github.com/Darkyenus/DarkyenusTimeTracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Dart](https://github.com/tschmidt23/dart) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Deep Work Hours](https://github.com/co0lsky/deep-work-hours-phoenix) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Doing](https://brettterpstra.com/projects/doing/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| Dotoo (see Vim-DoToo) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Easy Hours](https://play.google.com/store/apps/details?id=com.thirtyxi.easyhourslite) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Employee Time Clock](https://play.google.com/store/apps/details?id=com.timesheetmobile) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| Employee Time Clock - SINC (see SINC) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Emoji Log](https://emojilog.rosano.ca/)| (from https://github.com/merveilles/Time-Travelers#time-travellers) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Episodie](https://github.com/hypeapps/episodie) | Track time you spend watching TV! See also Youtube Time Tracker | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Faereld](https://hraew.autophagy.io/faereld/) ([repo](https://github.com/autophagy/faereld))| (from https://github.com/merveilles/Time-Travelers#time-travellers) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Forge](https://github.com/micromata/projectforge) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Darkyenus Time Tracker](https://github.com/Darkyenus/DarkyenusTimeTracker) | Tracks time in the IDE. Adds it to git commit messages | ✔️ | Git log | ❌ | ✔️ | ✔️ (Unlicense) |N/A |
+| [Dart](https://github.com/tschmidt23/dart) | Not a time tracker, but a real-time tracker thingy | N/A | N/A | N/A | N/A | N/A | N/A |
+| [Deep Work Hours](https://github.com/co0lsky/deep-work-hours-phoenix) | pubsub for time tracking | Maybe? | Pubsub | Pubsub | ✔️ | No license | N/A |
+| [Doing](https://brettterpstra.com/projects/doing/) | Command line time tracker | ✔️ | CSV/JSON/Markdown | JSON | (supports teams?) | ✔️ (MIT) | N/A | 
+| Dotoo (see Vim-DoToo) | see Vim-DoToo | N/A | N/A | N/A | N/A | N/A | N/A |
+| [Easy Hours](https://play.google.com/store/apps/details?id=com.thirtyxi.easyhourslite) | Android app for time tracking. Has a free version, but that does not support exports | ✔️ | CSV | ❌ | No | ❌ | 5,49 one time |
+| [Employee Time Clock](https://play.google.com/store/apps/details?id=com.timesheetmobile) | Android app companion for www.timesheetmobile.com | ✔️ | REST API | REST API | ✔️ | ❌ | 14,99 base + 3,49 per employee |
+| Employee Time Clock - SINC (see SINC) | See SINC | N/A | N/A | N/A | N/A | N/A | N/A | 
+| [Emoji Log](https://emojilog.rosano.ca/)| (from https://github.com/merveilles/Time-Travelers#time-travellers) | ✔️? | JSON | JSON | ❌ | ✔️ (Hippocratic License) | N/A | 
+| [Episodie](https://github.com/hypeapps/episodie) | Track time you spend watching TV! See also Youtube Time Tracker | ❌? | ❌ | No | ❌ | ✔️ (GPL-3) | N/A | 
+| [Faereld](https://hraew.autophagy.io/faereld/) ([repo](https://github.com/autophagy/faereld))| CLI time tracker. Configurable | ✔️? | Maybe text output? | ❌ | No | ✔️ (MIT) | N/A | 
+| [Forge](https://github.com/micromata/projectforge) | (description) | ✔️ | Excel / scripting available | ❌ | ✔️ | GPL-3 | price (US$/month) | 
 | Freckle | Renamed to Noko | N/A | N/A | N/A | N/A | N/A | N/A | 
-| [FreshBooks](https://www.freshbooks.com/en-eu/timesheets-and-time-tracking) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Git Time Metric (GTM)](https://github.com/git-time-metric/gtm) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Gitlab Time Tracker Taskbar](https://github.com/kriskbx/gitlab-time-tracker-taskbar) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [GitHub Time Tracking](https://github.com/StephenOTT/GitHub-Time-Tracking) |  By Stephen Russett, archived | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [GitHub Time Tracking](https://github.com/klokantech/github-time-tracking) | By Petr Pridal | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Glass](https://github.com/timeglass/glass) | Deprecated | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Gitlab Time Tracker](https://github.com/kriskbx/gitlab-time-tracker) | By Kris | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Gitlab Time Tracking](https://github.com/dzaporozhets/gitlab-time-tracking) | By Dmitriy Zaporozhets | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [GitLab Time Tracking](https://github.com/StephenOTT/GitLab-Time-Tracking) | By Stephen Russett | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Gitpaid](https://github.com/rcrowley/gitpaid) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [golog](https://github.com/mlimaloureiro/golog) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Gotime](https://github.com/nanohard/gotime) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Gtimelog](https://github.com/gtimelog/gtimelog) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [FreshBooks](https://www.freshbooks.com/en-eu/timesheets-and-time-tracking) | Commercial time tracking and more | ✔️ | REST API JSON | REST API POST | ✔️ | ❌ | 4.80/month |
+| [Git Time Metric (GTM)](https://github.com/git-time-metric/gtm) | Tracks time through IDE usage. Stored as git notes | ✔️ | Git notes | Git notes | ✔️ | ✔️ (MIT) | N/A | 
+| [Gitlab Time Tracker Taskbar](https://github.com/kriskbx/gitlab-time-tracker-taskbar) | taskbar thing for Gitlab time tracker | See Gitlab time tracker | N/A | N/A | N/A | ✔️ (GPL-2) | N/A | 
+| [GitHub Time Tracking](https://github.com/StephenOTT/GitHub-Time-Tracking) | By Stephen Russett, archived. Tracks time in git commit messages | ✔️? | Git commit messages | Git commit messages | ✔️ | ✔️ (GPL-3) | N/A |
+| [GitHub Time Tracking](https://github.com/klokantech/github-time-tracking) | By Petr Pridal – time tracker extension for Harvest. See Harvest | ❌ | N/A | N/A | N/A | (open source?) | N/A | 
+| [Glass](https://github.com/timeglass/glass) | Deprecated | ✔️? | Git notes | Git notes | ✔️ | ✔️ (MPL-2) | N/A | 
+| [Gitlab Time Tracker](https://github.com/kriskbx/gitlab-time-tracker) | By Kris – stores data in gitlab | ✔️? | JSON | JSON? | ✔️ | ✔️ (GPL-2) | N/A | 
+| [Gitlab Time Tracking](https://github.com/dzaporozhets/gitlab-time-tracking) | By Dmitriy Zaporozhets – stores data in postgresql | (usable?) | ❌ | No | ❌? | ✔️ (MIT) | N/A |
+| [GitLab Time Tracking](https://github.com/StephenOTT/GitLab-Time-Tracking) | By Stephen Russett - Time Tracking application for GitLab Issue Queues built on Ruby Sinatra and MongoDB. | ✔️ | XLSX  | ❌? | ✔️ | No license | N/A | 
+| [Gitpaid](https://github.com/rcrowley/gitpaid) | CLI application that posts time tracking in Git | ❌? | Git repo | Git repo | ❌ | No license | N/A |
+| [golog](https://github.com/mlimaloureiro/golog) | CLI start/stop tracking. Short lived data | ✔️ | Text output | N/A | ❌ | ✔️ (Apache-2) | N/A | 
+| [Gotime](https://github.com/nanohard/gotime) | Linux only | ✔️? | Text export | N/A | ❌ | ✔️ (BSD-3) | N/A | 
+| [Gtimelog](https://github.com/gtimelog/gtimelog) | Gnome based time tracker | ✔️ | Text based format, CSV | Text based format | ❌ | ✔️ (GPL-2) | N/A |
 | [Hackaru](https://github.com/hackaru-app/hackaru) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Harvest](https://www.getharvest.com/harvest-time-tracking) ([node client](https://github.com/simplyspoke/node-harvest)) ([Timer for Harvest](https://github.com/frenkel/timer-for-harvest)) ([python client](https://github.com/lionheart/python-harvest)) ([sdk](https://github.com/ | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | harvesthq/platform))
 | [Habit tracker](https://apps.apple.com/nl/app/habit-tracker/id1438388363) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
