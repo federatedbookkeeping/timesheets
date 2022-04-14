@@ -12,7 +12,7 @@
 | <ul><li>activityName</li><li>Project name</li><li>Project</li><li> data.title</li><ul> | String | Project to work on  | Prejournal |
 | data.activity_id | Integer | Unique activity/task/project  ID | 1 |  
 | <ul><li>activityCategoryName</li><li>data.time_entry_type</li></ul> | String | The type of the activity | Professional |
-| <ul><li>Comment</li><li><note></li><li>details</li><li>data.description</li></ul> | String | Comment about the current activity | Last task for today |
+| <ul><li>Comment</li><li>note</li><li>details</li><li>data.description</li></ul> | String | Comment about the current activity | Last task for today |
 | <ul><li>Task</li><li>Issue</li><ul> | String  | Task to accomplish(A project includes many tasks) | Update database  |
 | <ul><li>Status</li><li>data.is_completed</li></ul> | <ul><li>String</li><li>Integer</li></ul>  | Checks the situation of the task/project(in progress or not) | Unresolved |  
 | data.completed_datetime |  Datetime (DATE_ISO8601 - Y-m-d\TH:i:sP)  | When the task completed | 2017-03-13T18:00:00+02:00 |
