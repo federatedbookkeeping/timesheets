@@ -4,7 +4,7 @@
 | ---- | ---- | ---- | ---- |
 |<ul><li>User name</li><li>Name</li><li>name</li></ul> | String | Username | Test user |
 |<ul><li>Employee ID</li><li>Results.EmpIdenitfier</li></ul>| <ul><li>Integer</li><li>String</li></ul> | Unique Employee ID | 1 |
-|<ul><li>data.user.id</li><li>userUid</li><li>id</li>data.duration </ul> | <ul><li>Integer</li><li>String</li></ul> | Unique User ID | 1 |
+|<ul><li>data.user.id</li><li>userUid</li><li>id</li> </ul> | <ul><li>Integer</li><li>String</li></ul> | Unique User ID | 1 |
 | <ul><li>activityStartDate[ms]</li><li>activityStartDate</li><li>Start time</li><li>Start date</li><li>start</li><li>data.start_datetime</li><li> Results.StartDateTime</li></ul> | <ul><li>Integer</li><li>YYYY-MM:DD HH:MM:SS </li><li>Datetime (DATE_ISO8601 - Y-m-d\TH:i:sP)</li><li> Day Month DD HH:MM:SS GMT YY </li><ul> | Time when the task started | <ul><li> 1648217938740 </li><li>2022-03-18 09:39:19</li><li>2017-03-13T18:00:00+02:00</li><li> Fri Mar 25 15:09:38 GMT+01:00 2022 </li></ul>  |
 |<ul><li>activityEndDate[ms]</li><li>activityEndDate</li><li>End date</li><li>End time</li><li>end</li><li>end_datetime</li><li>Results.EndDateTime </li></ul> | <ul><li>Integer</li><li>YYYY-MM:DD HH:MM:SS </li><li>Datetime (DATE_ISO8601 - Y-m-d\TH:i:sP)</li><li> Day Month DD HH:MM:SS GMT YY </li><ul>  | Time when the task ended | <ul><li> 1648217938740 </li><li>2022-03-18 09:40:00</li><li>2017-03-13T18:00:00+03:00</li><li> Fri Mar 25 15:09:38 GMT+01:00 2022 </li></ul>  |
 | <ul><li><activityDuration[ms]/li><li>activityDuration</li><li>Duration</li><li>data.duration </li><li>Time</li></ul> | <ul><li>Integer(seconds)</li><li>Integer(minutes)</li><li>Time (HH:ii:ss) </li></ul> | Task's duration |  <ul><li>563947</li><li>10 min</li><li> 05:00:00 </li></ul> |
