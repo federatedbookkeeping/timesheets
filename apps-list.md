@@ -1,6 +1,38 @@
 # Applications that record or consume timesheet data
 
-Alphabetical list:
+## Shortlist
+
+Prejournal [supports](https://github.com/pondersource/prejournal/blob/e8ad195/src/commands/import-hours.php#L32-L50) all shortlisted formats except Mite directly.
+Furthermore, Prejournal also support import/export to/from WikiSuite, which is how it supports Mite indirectly.
+
+WikiSuite [supports](https://gitter.im/federatedbookkeeping/timesheets?at=62ab2467e393a318065d4dd1) Scoro, Mite and Time directly.
+Furthermore, WikiSuite  support import/export to/from Prejournal, which is how it support the other shortlisted formats indirectly.
+
+Timeld supports none of the shortlisted formats directly, but it support import/export to/from both WikiSuite and Prejournal, which is how it supports
+all shortlisted formats indirectly.
+
+| App| Description | Usable? | Export Formats | Import Formats | Supports Teams? | Open Source? | Price(US$/month) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Mite CMD](https://github.com/Overbryd/mite.cmd) | mite is a sleek online time tracking tool. Built in collaboration with the people who rely on it now: designers, developers, architects, and attorneys. Freelancers as well as small teams. | ✔️ | [JSON](./data-formats/mite-JSON-GET.md) | [JSON](./data-formats/mite-JSON-POST.md) | ✔️ | ❌ | €5/user/month | 
+| [Savemytime](https://play.google.com/store/apps/details?id=com.godmodev.optime) | Mobile timetracker  | ✔️  | [CSV](./data-formats/saveMyTime-CSV.md) (proffesional 3$) | ❌(?) |  ❌  | ❌ | 0-3$ |
+| [Scoro](https://www.scoro.com/time-management-software/) | Software as a Service (SaaS)| ✔️  | [JSON](./data-formats/scoro-JSON.md) |  [JSON](./data-formats/scoro-JSON.md)  | ✔️  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
+| [Stratustime](https://stratustime.centralservers.com/) |  Employees can record their time  | ✔️   | [JSON](./data-formats/stratustime-JSON.md), [XML](./data-formats/stratustime-XML.md)| [XML](./data-formats/stratustime-XML.md), [JSON](./data-formats/stratustime-JSON.md)  |  ✔️  | ❌  | 4$+/employee |
+| [Time](https://github.com/wbbly/time) | React UI for Wobbly Time Tracker for the Teams | ✔️ | [CSV](./data-formats/time-CSV.md) | (❌) | ✔️ | ✔️ | 0-29.99$| 
+| [TimeBro](https://www.timebro.com/) | Never lose a minute with time tracking again | ✔️ | [TimeBroCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-CSV.md) [TimeBroExcel](./data-formats/timeBro-Excel.md) [TimeBroPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-PDF.pdf)| ❌ | ❌ | ❌ | 14-30$| 
+| [Timecamp](https://www.timecamp.com/) | Track time against your projects and create reports and timesheets in seconds. | ✔️ | [TimeCampCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timecamp-CSV.md) [TimeCampExcel](./data-formats/timeCamp-Excel.md) [TimeCampPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeCamp-PDF.pdf) | ❌ | ✔️ | ❌ | 0-9$ | 
+| [Time Doctor](https://www.timedoctor.com/) | Automatic time tracking lets you know where the team excels and where it needs help so you can easily improve individual and overall performance.| ✔️ | [TimeDoctorCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeDoctor.CSV.md) [TimeDoctorExcel](./data-formats/timeDoctor-Excel.md) | ❌ | ✔️ | ✔️ | 7-24$ | 
+| [Timely](https://www.freshworks.com/apps/freshdesk/timely/) ([Android app](https://play.google.com/store/apps/details?id=com.timeapp.devlpmp) | Works with Freshdesk / Freshworks) | ✔️ | [TimelyCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-CSV.md) [TimelyExcel](./data-formats/timely-Excel.md) [TimelyPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-PDF.pdf) | ❌ | ✔️ | ❌ | 8-20$ | 
+| [Time Manager](https://apps.nextcloud.com/apps/timemanager) ([repo](https://github.com/te-online/timemanager) | (description) | ✔️ | [TimeManagerCSV](./data-formats/timeManager-CSV.csv) | ✔️ | (supports teams?) | ✔️ | Free ) | 
+| [Timesheet](https://play.google.com/store/apps/details?id=robin.urenapp) | By Robin Dijkhof | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV.md) [TimeSheetPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
+| [Timesheet Mobile](https://apps.apple.com/us/app/timesheet-mobile/id560462162) | Timesheet Mobile | ✔️ | [TimeSheetMobileCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetMobile-CSV.md | ❌ | ✔️| ❌ | 3-149$ | 
+| Timesheets Time Tracker | See Veryfi | ✔️ | [TimeSheetVerifyUiJSON](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetVerifyUiJSON.md | ❌ | ✔️ | ❌ | 0-500$ |
+| [Timetip](https://github.com/rstacruz/timetip) | Deliciously-minimal time tracker for the command-line | ✔️ | [TimeSheetTimeTrackerExcel](./data-formats/timeTip-JSON.md)| ❌ | ❌ | ✔️ | Free | 
+| [Timetracker](https://github.com/anuko/timetracker) | By Anuko | ✔️ | [TimeTrackerCSV](./data-formats/timeTracker-CSV.md) [TimeTrackerPDF](./data-formats/timeTracker-PDF.pdf) [TimeTrackerXML](./data-formats/timeTracker-XML.md) | ✔️ | ✔️ | ✔️ | Free | 
+| [Time Tracker CLI](https://github.com/danibram/time-tracker-cli) | Node JS cli application | ✔️ | [TimeTrackerCliCSV](./data-formats/timeTrackerCli-CSV.md) [TimeTrackerCliJSON](./data-formats/timeTrackerCli-JSON.md)| ❌ | ❌ | ✔️ | Free | 
+| [Time Tracker](https://play.google.com/store/apps/details?id=com.cg.android.ebillitytimetracker) | By eBillity | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerDaily-CSV.md) [TimeTrackerExcel](./data-formats/timeTrackerDaily-Excel.md)| ❌ | ✔️ | ❌ | 6-24$ | 
+| [Time Tracker](https://apps.nextcloud.com/apps/timetracker) | On Nextcloud | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerNextcloud-CSV.md) [TimeTrackerJSON](./data-formats/timeTrackerNextcloud-JSON.md)| ❌ | ❌ | ✔️ | Free | 
+
+## Other Time Tracker Apps
 
 | App| Description | Usable? | Export Formats | Import Formats | Supports Teams? | Open Source? | Price(US$/month) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -51,7 +83,6 @@ Alphabetical list:
 | [Log](https://github.com/v-exec/Log) | The Log is a timekeeping tool for productivity and time management. It uses a generic text file as a collection of logs, converts these logs to mySQL entry commands through a simple Ruby parsing script, uploads them to a remote mySQL database, and visualizes this data through a web-based interface using PHP. | ✔️ | ❌ | [log-CSV.md](./data-formats/log-CSV.md) | ✔️ | ✔️ | Free | 
 | [MacTimeLog](https://github.com/SPlyer/MacTimeLog) | MacTimeLog is a simple time tracking tool for Mac OS X. | ❌ | N/A | N/A | N/A | ✔️ | Free | 
 | [Metime](https://github.com/jdleesmiller/metime) | Personal time tracker tool | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
-| [Mite CMD](https://github.com/Overbryd/mite.cmd) | mite is a sleek online time tracking tool. Built in collaboration with the people who rely on it now: designers, developers, architects, and attorneys. Freelancers as well as small teams. | ✔️ | [JSON](./data-formats/mite-JSON-GET.md) | [JSON](./data-formats/mite-JSON-POST.md) | ✔️ | ❌ | €5/user/month | 
 | [Monday.com](https://monday.com/lp/mb/time-tracking/comparison2) | Team-based time tracking platform | ✔️ | [XLSX](./data-formats/monday.com-XLSX.xlsx) [Excel](./data-formats/monday.com-Excel.md) | ❌ | ✔️ | ❌ | $0-$22/user/month | 
 | [Muze in-house tool (not public)](https://uren.muze.nl/) | Not for public use | Yes | Muze-JSON | No | No | No | N/A | 
 | [My Worktime](https://play.google.com/store/apps/details?id=com.danielg.myworktime) | My Worktime is the kind of app that makes your smartphone a great tool for tracking your jobs, calculating your pay and tracking your project time. | ✔️ | CSV/XLSX/PDF (needs in-app purchase) | ❌ | ❌ | ❌ | $0-$2 | 
@@ -85,15 +116,12 @@ Alphabetical list:
 | [Sage HR](https://sage.hr/features/timesheets) | A simple, easy to use interface to adjust hours worked & submit a timesheet for approval to a manager | ✔️  | ✔ | [JSON](./data-formats/sageHR-JSON.md) | ✔️  | ❌  | [7$/employee](https://sage.hr/pricing) |
 | [Samay](https://github.com/nexneo/samay) | Command line Time tracking and reporting | ✔️  |  ❌  |  ❌  | ❌ | ✔️   | Free |
 | [SAP Fieldglass](https://play.google.com/store/apps/details?id=com.sap.ui5.timeentry) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | ✔️   |  ❌  | Free(too good to be true) |
-| [Savemytime](https://play.google.com/store/apps/details?id=com.godmodev.optime) | Mobile timetracker  | ✔️  | [CSV](./data-formats/saveMyTime-CSV.md) (proffesional 3$) | ❌(?) |  ❌  | ❌ | 0-3$ |
-| [Scoro](https://www.scoro.com/time-management-software/) | Software as a Service (SaaS)| ✔️  | [JSON](./data-formats/scoro-JSON.md) |  [JSON](./data-formats/scoro-JSON.md)  | ✔️  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
 | [SimpleTimeTracker-Razeeman](https://play.google.com/store/apps/details?id=com.razeeman.util.simpletimetracker) | Time tracker app | ✔️  | [CSV](./data-formats/simpleTimeTracker-CSV.md) | N/A |  ❌  | ✔️  | Free |
 | [Simple TimeTracker with Notion](https://apps.apple.com/nl/app/simple-timetracker-with-notion/id1590343222) | IOS app time tracker | ✔️  | ❌ |  ❌ |  ❌  |  ❌ | Free |
 | [SINC](https://play.google.com/store/apps/details?id=com.sinc.sincandroid) | Timecard And Location Tracking App | ✔️   | PDF/Excel(the excel file can be opened and saved as a CSV file) |  ❌ | ✔️    | ❌ | 0-50$ |
 | [Smarter Time](https://play.google.com/store/apps/details?id=com.smartertime) | Time tracker app for iOS,Web and  Android | ✔️  | [CSV](./data-formats/smarterTime-CSV.md) | N/A | ❌ | ❌ | 0-5$ |
 | [Sprint App](https://github.com/macfanatic/SprintApp) | Project management and time tracking app | ✔️  | ❌(Html response. No clear doc, conclusion made by looking the code) | N/A |  ✔️  | ✔️  | Free |
 | [Staple](https://github.com/bertinetto/staple) | Staple tracker. CVPR 2017: End-To-End Representation Learning for Correlation Filter Based Tracking | ❌ | N/A  | N/A  | N/A | ✔️  | Free |
-| [Stratustime](https://stratustime.centralservers.com/) |  Employees can record their time  | ✔️   | [JSON](./data-formats/stratustime-JSON.md), [XML](./data-formats/stratustime-XML.md)| [XML](./data-formats/stratustime-XML.md), [JSON](./data-formats/stratustime-JSON.md)  |  ✔️  | ❌  | 4$+/employee |
 | [StreaDeck-Toggl](https://github.com/tobimori/streamdeck-toggl) |Time tracking using [Elgato Stream Deck](https://www.elgato.com/en/stream-deck) and [Toggl Track](https://toggl.com/track/) | ✔️  | JSON | JSON |  ✔️   | ✔️  | Free |
 | [Super Productivity](https://github.com/johannesjo/super-productivity) | todo list app with integrated [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing) and time tracking capabilities | ✔️  | N/A | N/A | ✔️   |  ❌  | Free |
 | [swdc-vscode](https://github.com/swdotcom/swdc-vscode) | Time-tracking plugin for Visual Studio Code | ✔️   | N/A | N/A |  ✔️  | ✔️  | Free |
@@ -112,26 +140,18 @@ Alphabetical list:
 | [Ticket Timer](https://www.freshworks.com/apps/freshdesk/ticket_timer/)  |Time tracker app, which uses tickets to save time(Need for [Freshworks](https://www.freshworks.com/)) account | ✔️  - | - |  ❌  | ❌  | Free/Premium(price is not clear) |
 | [Tim](https://github.com/MatthiasKauer/tim) |  CL for recording time logs(Handled by [hledger](https://hledger.org/)) | ✔️  | JSON | - |  ❌  | ✔️  | Free |
 | [Timav](https://szymonkaliski.com/projects/timav/) | Time Tracking system backed by Google Calendar | ✔️  | - | - |  ❌  | ✔️  | Free |
-| [Time](https://github.com/wbbly/time) | React UI for Wobbly Time Tracker for the Teams | ✔️ | CSV | (❌) | ✔️ | ✔️ | 0-29.99$| 
 | [Time and Labor](https://timeandlabor.paychex.com/secure/) | See also Paychex | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | 
-| [TimeBro](https://www.timebro.com/) | Never lose a minute with time tracking again | ✔️ | [TimeBroCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-CSV.md) [TimeBroExcel](./data-formats/timeBro-Excel.md) [TimeBroPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-PDF.pdf)| ❌ | ❌ | ❌ | 14-30$| 
-| [Timecamp](https://www.timecamp.com/) | Track time against your projects and create reports and timesheets in seconds. | ✔️ | [TimeCampCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timecamp-CSV.md) [TimeCampExcel](./data-formats/timeCamp-Excel.md) [TimeCampPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeCamp-PDF.pdf) | ❌ | ✔️ | ❌ | 0-9$ | 
 | [Timecop](https://github.com/hamaluik/timecop) | A time tracking app that respects your privacy and gets the job done without getting too fancy.| ❌ | CSV | ❌ | ❌ | ✔️ | 0.79$ | 
 | [Timed](https://github.com/adeel/timed) | Timed is a command-line time tracker. | ❌ | ❌ | ❌ | ❌ | ✔️| Free | 
-| [Time Doctor](https://www.timedoctor.com/) | Automatic time tracking lets you know where the team excels and where it needs help so you can easily improve individual and overall performance.| ✔️ | [TimeDoctorCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeDoctor.CSV.md) [TimeDoctorExcel](./data-formats/timeDoctor-Excel.md) | ❌ | ✔️ | ✔️ | 7-24$ | 
 | [Timeero](https://play.google.com/store/apps/details?id=com.timeero.time_clock) | Track employee hours, mileage and location with our GPS time tracking app.| ✔️ | ❌ | ❌ | ❌ | ❌| 5-10$ | 
 | [Timeglass](http://timeglassapp.io/) | Time anything.
 Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ | 
 | [Timelog](https://play.google.com/store/apps/details?id=dev.giall.timelog) | Make time tracking a no-brainer. | ✔️ | ❌ | ❌ | ❌ | ❌ | 0-40$ | 
-| [Timely](https://www.freshworks.com/apps/freshdesk/timely/) ([Android app](https://play.google.com/store/apps/details?id=com.timeapp.devlpmp) | Works with Freshdesk / Freshworks) | ✔️ | [TimelyCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-CSV.md) [TimelyExcel](./data-formats/timely-Excel.md) [TimelyPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-PDF.pdf) | ❌ | ✔️ | ❌ | 8-20$ | 
-| [Time Manager](https://apps.nextcloud.com/apps/timemanager) ([repo](https://github.com/te-online/timemanager) | (description) | ✔️ | [TimeManagerCSV](./data-formats/timeManager-CSV.csv) | ✔️ | (supports teams?) | ✔️ | Free ) | 
 | [Time Meter](https://play.google.com/store/apps/details?id=com.rk.timemeter) | Time Meter| ✔️ | ✔️ | ❌ | ❌ | ❌ | 0-5$| 
 | [TimePouch](https://github.com/chesles/timepouch) | timepouch is a command-line time tracking utility  | ❌| ❌ | ❌ | ❌ | ✔️ | Free | 
 | [Time Recorder](https://play.google.com/store/apps/details?id=com.dynamicg.timerecording) | Time Recorder | ✔️ | [TimeRecordExcel](./data-formats/timeRecorder-Excel.md) [TimeRecorderPDF](./data-formats/timeRecorder-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
-| [Timesheet](https://play.google.com/store/apps/details?id=robin.urenapp) | By Robin Dijkhof | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV.md) [TimeSheetPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
 | [Timesheet](https://play.google.com/store/apps/details?id=com.unidevsolutions.timesheet) | By Unidev Solutions | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV-1.md) | ❌ | ❌| ❌ | 0-5.35$ | 
 | [Timesheet History](https://play.google.com/store/apps/details?id=com.forutan.app.timesheethistory) | by Forutan Software | ✔️ | Excel - but need pay before export | ❌ | ❌ | ❌ | 2.24$ | 
-| [Timesheet Mobile](https://apps.apple.com/us/app/timesheet-mobile/id560462162) | Timesheet Mobile | ✔️ | [TimeSheetMobileCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetMobile-CSV.md | ❌ | ✔️| ❌ | 3-149$ | 
 | Timesheet PDF [Android app](https://play.google.com/store/apps/details?id=com.mds.tplus) [iOS app](https://apps.apple.com/us/app/timesheet-pdf/id898115583) | by Mobile and Database Solutions | ✔️ | [TimeSheetPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetPDF-PDF.pdf | ❌ | ❌ | ❌| The price is not set. | 
 | [Timesheet - Time Tracker](https://play.google.com/store/apps/details?id=com.rauscha.apps.timesheet) | Timesheet - Time Tracker | ✔️ | [TimeSheetTimeTrackerCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetTimeTracker-CSV.md [TimeSheetTimeTrackerExcel](./data-formats/timesheetTimeTracker-Excel.md)| ❌ | ❌ | ❌ | 0-10$ | 
 | [Timesheet - Time Card](https://play.google.com/store/apps/details?id=com.aadhk.time) | Timesheet - Time Card | ✔️ | CSV/Excel | CSV/Excel | ❌ | ❌ | Free | 
@@ -139,20 +159,14 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | Timesheet - Track Work Hours [Android app](https://play.google.com/store/apps/details?id=com.sullivansoftware.timesheetapp) [iOS app](https://apps.apple.com/us/app/timesheet-track-work-hours/id1326395665) | Timesheet - Track Work Hours  | ✔️ | ❌ | ❌| ❌ | ❌ | Free | 
 | [Timesheets](https://github.com/hardchor/timesheets) | By hardchor | ❌ | ❌ | ❌ | ❌| ✔️ | Free | 
 | [Timesheets](https://play.google.com/store/apps/details?id=com.singlebyte.harvest) | By SingleByte | ❌  | ❌ | ❌ | ❌ | ❌ | Free | 
-| Timesheets Time Tracker | See Veryfi | ✔️ | [TimeSheetVerifyUiJSON](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetVerifyUiJSON.md | ❌ | ✔️ | ❌ | 0-500$ |
 | [Timestrap](https://github.com/overshard/timestrap) | Full export support in multiple formats | ❌ | ✔️ | ❌ | ❌ | ✔️ | Free | 
 | [TimeTell](https://timetell.com/software-modules/) | TimeTell | ❌ | ✔️ | ❌ | ❌ | ❌ | Not find | 
-| [Timetip](https://github.com/rstacruz/timetip) | Deliciously-minimal time tracker for the command-line | ✔️ | [TimeSheetTimeTrackerExcel](./data-formats/timeTip-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [TimeTrack](https://play.google.com/store/apps/details?id=com.time_tracking.user006test.timetracking)  | TimeTrack | waiting for response | ❌ | ❌ | ❌ | ❌ | I don't know | 
 | [Time Track](https://github.com/torsten/TimeTrack) | A minimalist time tracking app for Mac OS | ❌ | ❌ | ❌ | ❌ | ✔️ | Free | 
 | [TimeTracker](https://github.com/knewter/time-tracker) | By Knewter | ❌ | ❌ | ❌ | ❌ | ✔️ | Free | 
-| [Timetracker](https://github.com/anuko/timetracker) | By Anuko | ✔️ | [TimeTrackerCSV](./data-formats/timeTracker-CSV.md) [TimeTrackerPDF](./data-formats/timeTracker-PDF.pdf) [TimeTrackerXML](./data-formats/timeTracker-XML.md) | ✔️ | ✔️ | ✔️ | Free | 
-| [Time Tracker](https://play.google.com/store/apps/details?id=com.cg.android.ebillitytimetracker) | By eBillity | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerDaily-CSV.md) [TimeTrackerExcel](./data-formats/timeTrackerDaily-Excel.md)| ❌ | ✔️ | ❌ | 6-24$ | 
 | [Timetracker](https://github.com/eyscode/timetracker) | By Eysenk, CLI client for BairesDev TimeTracker | ❌ | CSV | ❌ | ❌ | ✔️ | Free | 
-| [Time Tracker](https://apps.nextcloud.com/apps/timetracker) | On Nextcloud | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerNextcloud-CSV.md) [TimeTrackerJSON](./data-formats/timeTrackerNextcloud-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker](https://play.google.com/store/apps/details?id=zzz1zzz.tracktime) | By Zafer Ertas | ✔️ | ✔️ | ❌ | ❌ | ❌ | 6$ | 
 | [Time Tracker - Timesheet](https://play.google.com/store/apps/details?id=ch.gridvision.pbtm.androidtimerecorder) | By Gridvision | ✔️ | [TimeTrackerTimesheetCSV](./data-formats/timeTrackerTimesheet-CSV.md) | ❌ | ❌ | ❌ | Free | 
-| [Time Tracker CLI](https://github.com/danibram/time-tracker-cli) | Node JS cli application | ✔️ | [TimeTrackerCliCSV](./data-formats/timeTrackerCli-CSV.md) [TimeTrackerCliJSON](./data-formats/timeTrackerCli-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker Mac](https://github.com/rburgst/time-tracker-mac) | By Rainer Burgstaller | ❌ | ✔️ | ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker Mac](https://github.com/avh4/time-tracker-for-mac) | By Aaron VonderHaar, archived? | ❌ | ✔️ | ❌ | ❌ | ✔️ | Free | 
 | [Time Tracking](https://github.com/derhuerst/time-tracking) | Minimalistic command line time tracking | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
