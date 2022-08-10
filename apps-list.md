@@ -1,51 +1,41 @@
 # Applications that record or consume timesheet data
 
-Alphabetical list:
+## Shortlist
+
+Prejournal [supports](https://github.com/pondersource/prejournal/blob/e8ad195/src/commands/import-hours.php#L32-L50) all shortlisted formats except Mite directly.
+Furthermore, Prejournal also support import/export to/from WikiSuite, which is how it supports Mite indirectly.
+
+WikiSuite [supports](https://gitter.im/federatedbookkeeping/timesheets?at=62ab2467e393a318065d4dd1) Scoro, Mite and Time directly.
+Furthermore, WikiSuite  support import/export to/from Prejournal, which is how it support the other shortlisted formats indirectly.
+
+Timeld supports none of the shortlisted formats directly, but it support import/export to/from both WikiSuite and Prejournal, which is how it supports
+all shortlisted formats indirectly.
 
 | App| Description | Usable? | Export Formats | Import Formats | Supports Teams? | Open Source? | Price(US$/month) |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [7shifts](https://www.7shifts.com/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [ActivityWatch](https://activitywatch.net/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [AdaFruit](https://learn.adafruit.com/time-tracking-cube) (hardware cube for time tracking) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Agenda-Hours](https://agenda-uren.nl/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Android-SimpleTimeTracker](https://github.com/Razeeman/Android-SimpleTimeTracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [App-TimeTracker](https://github.com/domm/App-TimeTracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Arbtt](https://github.com/nomeata/arbtt) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Asana Time Track](https://github.com/codelovers/asana-time-track) (extension for Asana) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [a Time Logger](https://play.google.com/store/apps/details?id=com.aloggers.atimeloggerapp) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| ATracker [Android app](https://play.google.com/store/apps/details?id=com.wonderapps.ATracker) [iOS app](https://apps.apple.com/nl/app/atracker-time-tracker/id522008611) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Atto](https://play.google.com/store/apps/details?id=tech.zetta.atto) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Auto Start Timer](https://www.freshworks.com/apps/freshdesk/auto_start_timer/) | Works with Freshdesk / Freshworks | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Atea](https://github.com/pkamenarsky/atea) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [A Timely Manner](https://github.com/dvingo/a_timely_manner) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [ATimeTracker](https://github.com/netmackan/ATimeTracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Avaza Timesheets](https://play.google.com/store/apps/details?id=com.avaza.avazats) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Awork](https://www.awork.io/en/product/zeiterfassung-app/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [BairesDev TimeTracker](https://timetracker.bairesdev.com/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Bamboo HR](https://www.bamboohr.com/time-tracking-software/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Baralga](https://github.com/Baralga/baralga) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Beebole](https://get.beebole.com/time-tracking/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Belion](https://play.google.com/store/apps/details?id=com.ayham.belion) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Bexio](https://www.bexio.com/en-CH/functions) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Blocks Time Tracker](https://play.google.com/store/apps/details?id=com.goldberg.blockstimetracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [bob](https://www.hibob.com/solutions/time-management/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Boosted](https://play.google.com/store/apps/details?id=com.boostedproductivity.app) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Business Central Time Sheets](https://docs.microsoft.com/en-us/dynamics365/business-central/projects-how-use-time-sheets) ([Freshdesk plugin](https://www.freshworks.com/apps/freshdesk/business_central_time_sheets/)) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Calculate Hours Worked](https://apps.apple.com/us/app/calculate-hours-worked/id671021485) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Cattr](https://github.com/cattr-app/desktop-application) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Charm](https://github.com/KDAB/Charm) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Chrono](https://github.com/gochrono/chrono) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Chronofile](https://github.com/artnc/chronofile) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Chronologicon](https://github.com/rutherfordcraze/chronologicon)| (from https://github.com/merveilles/Time-Travelers#time-travellers) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [ClickUp](https://clickup.com/features/project-time-tracking) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Clockify](https://clockify.me/) ([integrations](https://clockify.me/integrations), [browser extension](https://github.com/clockify/browser-extension/tree/master/src/integrations)), ([go client](https://github.com/ABGEO/goclockify)) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [ClockShark](https://www.clockshark.com/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Connecteam](https://connecteam.com/employee-time-clock-app/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [CoralTime](https://github.com/CoralTime/CoralTime) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Crew Messaging and Scheduling](https://apps.apple.com/us/app/crew-messaging-and-scheduling/id962124015) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Crick](https://github.com/TailorDev/crick) |  backend for Watson, archived. | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Crono](https://github.com/bianchins/crono) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [ctt](https://code.ungleich.ch/ungleich-public/ctt) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Mite CMD](https://github.com/Overbryd/mite.cmd) | mite is a sleek online time tracking tool. Built in collaboration with the people who rely on it now: designers, developers, architects, and attorneys. Freelancers as well as small teams. | ✔️ | [JSON](./data-formats/mite-JSON-GET.md) | [JSON](./data-formats/mite-JSON-POST.md) | ✔️ | ❌ | €5/user/month | 
+| [Savemytime](https://play.google.com/store/apps/details?id=com.godmodev.optime) | Mobile timetracker  | ✔️  | [CSV](./data-formats/saveMyTime-CSV.md) (proffesional 3$) | ❌(?) |  ❌  | ❌ | 0-3$ |
+| [Scoro](https://www.scoro.com/time-management-software/) | Software as a Service (SaaS)| ✔️  | [JSON](./data-formats/scoro-JSON.md) |  [JSON](./data-formats/scoro-JSON.md)  | ✔️  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
+| [Stratustime](https://stratustime.centralservers.com/) |  Employees can record their time  | ✔️   | [JSON](./data-formats/stratustime-JSON.md), [XML](./data-formats/stratustime-XML.md)| [XML](./data-formats/stratustime-XML.md), [JSON](./data-formats/stratustime-JSON.md)  |  ✔️  | ❌  | 4$+/employee |
+| [Time](https://github.com/wbbly/time) | React UI for Wobbly Time Tracker for the Teams | ✔️ | [CSV](./data-formats/time-CSV.md) | (❌) | ✔️ | ✔️ | 0-29.99$| 
+| [TimeBro](https://www.timebro.com/) | Never lose a minute with time tracking again | ✔️ | [TimeBroCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-CSV.md) [TimeBroExcel](./data-formats/timeBro-Excel.md) [TimeBroPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-PDF.pdf)| ❌ | ❌ | ❌ | 14-30$| 
+| [Timecamp](https://www.timecamp.com/) | Track time against your projects and create reports and timesheets in seconds. | ✔️ | [TimeCampCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timecamp-CSV.md) [TimeCampExcel](./data-formats/timeCamp-Excel.md) [TimeCampPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeCamp-PDF.pdf) | ❌ | ✔️ | ❌ | 0-9$ | 
+| [Time Doctor](https://www.timedoctor.com/) | Automatic time tracking lets you know where the team excels and where it needs help so you can easily improve individual and overall performance.| ✔️ | [TimeDoctorCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeDoctor.CSV.md) [TimeDoctorExcel](./data-formats/timeDoctor-Excel.md) | ❌ | ✔️ | ✔️ | 7-24$ | 
+| [Timely](https://www.freshworks.com/apps/freshdesk/timely/) ([Android app](https://play.google.com/store/apps/details?id=com.timeapp.devlpmp) | Works with Freshdesk / Freshworks) | ✔️ | [TimelyCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-CSV.md) [TimelyExcel](./data-formats/timely-Excel.md) [TimelyPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-PDF.pdf) | ❌ | ✔️ | ❌ | 8-20$ | 
+| [Time Manager](https://apps.nextcloud.com/apps/timemanager) ([repo](https://github.com/te-online/timemanager) | (description) | ✔️ | [TimeManagerCSV](./data-formats/timeManager-CSV.csv) | ✔️ | (supports teams?) | ✔️ | Free ) | 
+| [Timesheet](https://play.google.com/store/apps/details?id=robin.urenapp) | By Robin Dijkhof | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV.md) [TimeSheetPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
+| [Timesheet Mobile](https://apps.apple.com/us/app/timesheet-mobile/id560462162) | Timesheet Mobile | ✔️ | [TimeSheetMobileCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetMobile-CSV.md | ❌ | ✔️| ❌ | 3-149$ | 
+| Timesheets Time Tracker | See Veryfi | ✔️ | [TimeSheetVerifyUiJSON](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetVerifyUiJSON.md | ❌ | ✔️ | ❌ | 0-500$ |
+| [Timetip](https://github.com/rstacruz/timetip) | Deliciously-minimal time tracker for the command-line | ✔️ | [TimeSheetTimeTrackerExcel](./data-formats/timeTip-JSON.md)| ❌ | ❌ | ✔️ | Free | 
+| [Timetracker](https://github.com/anuko/timetracker) | By Anuko | ✔️ | [TimeTrackerCSV](./data-formats/timeTracker-CSV.md) [TimeTrackerPDF](./data-formats/timeTracker-PDF.pdf) [TimeTrackerXML](./data-formats/timeTracker-XML.md) | ✔️ | ✔️ | ✔️ | Free | 
+| [Time Tracker CLI](https://github.com/danibram/time-tracker-cli) | Node JS cli application | ✔️ | [TimeTrackerCliCSV](./data-formats/timeTrackerCli-CSV.md) [TimeTrackerCliJSON](./data-formats/timeTrackerCli-JSON.md)| ❌ | ❌ | ✔️ | Free | 
+| [Time Tracker](https://play.google.com/store/apps/details?id=com.cg.android.ebillitytimetracker) | By eBillity | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerDaily-CSV.md) [TimeTrackerExcel](./data-formats/timeTrackerDaily-Excel.md)| ❌ | ✔️ | ❌ | 6-24$ | 
+| [Time Tracker](https://apps.nextcloud.com/apps/timetracker) | On Nextcloud | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerNextcloud-CSV.md) [TimeTrackerJSON](./data-formats/timeTrackerNextcloud-JSON.md)| ❌ | ❌ | ✔️ | Free | 
+
+## Other Time Tracker Apps
+
+| App| Description | Usable? | Export Formats | Import Formats | Supports Teams? | Open Source? | Price(US$/month) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | [Darkyenus Time Tracker](https://github.com/Darkyenus/DarkyenusTimeTracker) | Tracks time in the IDE. Adds it to git commit messages | ✔️ | Git log | ❌ | ✔️ | ✔️ (Unlicense) |N/A |
 | [Dart](https://github.com/tschmidt23/dart) | Not a time tracker, but a real-time tracker thingy | N/A | N/A | N/A | N/A | N/A | N/A |
 | [Deep Work Hours](https://github.com/co0lsky/deep-work-hours-phoenix) | pubsub for time tracking | Maybe? | Pubsub | Pubsub | ✔️ | No license | N/A |
@@ -72,21 +62,6 @@ Alphabetical list:
 | [golog](https://github.com/mlimaloureiro/golog) | CLI start/stop tracking. Short lived data | ✔️ | Text output | N/A | ❌ | ✔️ (Apache-2) | N/A | 
 | [Gotime](https://github.com/nanohard/gotime) | Linux only | ✔️? | Text export | N/A | ❌ | ✔️ (BSD-3) | N/A | 
 | [Gtimelog](https://github.com/gtimelog/gtimelog) | Gnome based time tracker | ✔️ | Text based format, CSV | Text based format | ❌ | ✔️ (GPL-2) | N/A |
-| [Hackaru](https://github.com/hackaru-app/hackaru) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Harvest](https://www.getharvest.com/harvest-time-tracking) ([node client](https://github.com/simplyspoke/node-harvest)) ([Timer for Harvest](https://github.com/frenkel/timer-for-harvest)) ([python client](https://github.com/lionheart/python-harvest)) ([sdk](https://github.com/ | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | harvesthq/platform))
-| [Habit tracker](https://apps.apple.com/nl/app/habit-tracker/id1438388363) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Hamster](http://projecthamster.org/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [HLedger](https://hledger.org/1.12/timedot.html) | See also "Plain Text Accounting" | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [HiveMind](https://github.com/moqui/HiveMind) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Homebase](https://joinhomebase.com/) ([iOS app](https://apps.apple.com/us/app/homebase-employee-scheduling/id871544379)) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Horaire](https://wiki.xxiivv.com/site/horaire.html)| (from https://github.com/merveilles/Time-Travelers#time-travellers) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [HourBuddy](https://play.google.com/store/apps/details?id=com.neurondigital.hourbuddy) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [HoursTracker](https://apps.apple.com/us/app/hourstracker-hours-pay/id336456412) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Hours](https://github.com/matt-allan/hours) | Archived | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Hours Time Tracker](https://apps.apple.com/nl/app/hours-time-tracking/id895933956) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| HoursTracker by CribaSoft [Android app](https://play.google.com/store/apps/details?id=com.cribasoft.HoursTrackerFree.Android) [iOS app](https://apps.apple.com/nl/app/hourstracker-hours-pay/id336456412) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Hours Tracker](https://play.google.com/store/apps/details?id=co.timesquared.timetracker) | By Time Squared | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Hubstaff](https://play.google.com/store/apps/details?id=com.netsoft.Hubstaff) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [i4ware](https://www.freshworks.com/apps/freshdesk/i4ware_-_timesheet_for_freshdesk/) | Seems discontinued but they have a different one now that works with Jira: [Rabid Timesheets for Jira](https://marketplace.atlassian.com/apps/1223446/rabid-timesheets-for-jira?tab=overview&hosting=cloud) | ❌ | ❌ | ❌ | ❌ | ❌ | $1/user/month | 
 | Intuit ([sample app, deprecated](https://github.com/IntuitDeveloper/SampleApp-TimeTracking_Invoicing-Java)) | This sample app is meant to provide working examples of how to integrate your app with the Intuit Small Business ecosystem. Fails to build java executable as it requires too old spring gradle plugin no longer available. | ❌ | N/A | N/A | N/A | N/A | Free |
 | [Jiffy](https://play.google.com/store/apps/details?id=com.nordicusability.jiffy) | A lightning fast time tracker that increases productivity by quickly generating time sheets. | ✔️ | [jiffy-CSV](./data-formats/jiffy-CSV.md) | ❌ | ❌ | ❌ | Free | 
@@ -108,9 +83,8 @@ Alphabetical list:
 | [Log](https://github.com/v-exec/Log) | The Log is a timekeeping tool for productivity and time management. It uses a generic text file as a collection of logs, converts these logs to mySQL entry commands through a simple Ruby parsing script, uploads them to a remote mySQL database, and visualizes this data through a web-based interface using PHP. | ✔️ | ❌ | [log-CSV.md](./data-formats/log-CSV.md) | ✔️ | ✔️ | Free | 
 | [MacTimeLog](https://github.com/SPlyer/MacTimeLog) | MacTimeLog is a simple time tracking tool for Mac OS X. | ❌ | N/A | N/A | N/A | ✔️ | Free | 
 | [Metime](https://github.com/jdleesmiller/metime) | Personal time tracker tool | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
-| [Mite CMD](https://github.com/Overbryd/mite.cmd) | mite is a sleek online time tracking tool. Built in collaboration with the people who rely on it now: designers, developers, architects, and attorneys. Freelancers as well as small teams. | ✔️ | [JSON](./data-formats/mite-JSON-GET.md) | [JSON](./data-formats/mite-JSON-POST.md) | ✔️ | ❌ | €5/user/month | 
 | [Monday.com](https://monday.com/lp/mb/time-tracking/comparison2) | Team-based time tracking platform | ✔️ | [XLSX](./data-formats/monday.com-XLSX.xlsx) [Excel](./data-formats/monday.com-Excel.md) | ❌ | ✔️ | ❌ | $0-$22/user/month | 
-| [Muze in-house tool (not public)](https://uren.muze.nl/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
+| [Muze in-house tool (not public)](https://uren.muze.nl/) | Not for public use | Yes | Muze-JSON | No | No | No | N/A | 
 | [My Worktime](https://play.google.com/store/apps/details?id=com.danielg.myworktime) | My Worktime is the kind of app that makes your smartphone a great tool for tracking your jobs, calculating your pay and tracking your project time. | ✔️ | CSV/XLSX/PDF (needs in-app purchase) | ❌ | ❌ | ❌ | $0-$2 | 
 | [Nettime](https://www.nettimesolutions.com/) | This is the developer of Stratustime | N/A | N/A | N/A | N/A | N/A | N/A | 
 | [Nexonia](https://play.google.com/store/apps/details?id=com.nexonia.android.timesheets) | Fully integrated expense reporting, invoice management, time tracking, and travel solutions. | Demo request required | N/A | N/A | ✔️ | ❌ | $12+/user/month | 
@@ -131,37 +105,23 @@ Alphabetical list:
 | [Pomidorus](https://github.com/tatyshev/pomidorus) | Very neat pomodoro-style timer. No data saved.| ✔️  | N/A | N/A | GitHub ticket | ✔️  | Free | 
 | [Pomobot](https://github.com/Intery/PomoBot) | Discord bot. Manage group study. Show stats. Can show history with a command in Discord.  | ✔️ | N/A | N/A | Log Github issue| ✔️  | Free | 
 | [Pomodo on Rails](https://github.com/dima/pomodo_on_rails) | RESTful Flex Development Demo App (Rails Version) |  ❌  | ❌  | ❌  |  ❌ | ✔️  | Free | 
-| [Pomodoro Logger](https://github.com/zxch3n/PomodoroLogger) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Procrastitracker](https://github.com/aardappel/procrastitracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| Project Hamster | See Hamster | N/A | N/A | N/A | N/A | N/A | N/A |
-| Project Forge | See Forge | N/A | N/A | N/A | N/A | N/A | N/A |
-| [Punch Time](https://apps.apple.com/us/app/punch-time-clock-hours-tracker/id1400078107) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Puzzle Time](https://github.com/puzzle/puzzletime) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [QRCode scan](https://github.com/saadel/qrcode-scan) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [QuickBooks](https://quickbooks.intuit.com/time-tracking/) ([Android app](https://play.google.com/store/apps/details?id=com.tsheets.android.hammerhead)) ([iOS app](https://apps.apple.com/us/app/quickbooks-time-tracking/id864076487) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Quidlo](https://play.google.com/store/apps/details?id=com.miquido.timesheets) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [React Time Tracking](https://github.com/tuanngominh/react-time-tracking) | Track your tasks and start a timer. You can tag/categorize your tasks. | ✔️  | Firebase dump | Import into Firebase | 2019 last activity |  ✔️  | Free | 
 | [Redmine Time Tracker](https://github.com/fernandokosh/redmine_time_tracker) | By Fernando Kosh, plugin for Redmine. Track time with a start/stop timer. Can be started with or without reference to Redmine issue. Can be used to generate invoices. Not maintained since 2014. | ❌  | Not obvious | Not obvious| ❌  | ✔️ | Free | 
-| [Redmine Time Tracker](https://github.com/ujiro99/RedmineTimeTracker) | By Ujiro99, archived | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Redmine Hourglass](https://github.com/hicknhack-software/redmine_hourglass) | Rewrite of Fernando Kosh's Redmine Time Tracker. Redmine plugin to aid in tracking spent time on projects and issues. A timer you can stop/start with an optional reference to what you are working on. Can be used to generate invoices. | ✔️ | Dump from mysql | csv | Log issues on Github | ✔️ | Free | 
 | [Redtimer](https://github.com/fathomssen/redtimer) | Easy-to-use platform-independent time tracker. Allows user to track time while working on issues. | ✔️  | Not obvious | Not obvious| Looks like you can log issues on Github. Not sure what response is like. |  ✔️  | Free | 
 | [RescueTime](https://play.google.com/store/apps/details?id=com.rescuetime.android) | Android app used to track all your screen time. Can also add your own meetings etc.| ✔️ | Not obvious | Not obvious | Yes, with paid subscription | ❌ | Free/Premium $12/month or $78/year | 
 | [Rubytime](https://github.com/LunarLogic/rubytime) | Merb-based time tracking and invoicing system. Web application for time tracking and invoicing | At your own risk | N/A | N/A| ❌  | ✔️ | Free | 
-| [Replicon](https://www.replicon.com/lp2/en-eu/hassle-free-timesheet-software-platform/) ([Android app](https://play.google.com/store/apps/details?id=com.repliconandroid)) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [rtw](https://github.com/PicoJr/rtw) | Rust Time Watcher, cli is stable. This is a personal project though and the developer suggests if you want a real tool to use Time Warrior | ❌  | json | N/A | Not really, but PicoJr may help |  ✔️ | Free | 
 | [Saas-Timetracker](https://github.com/appcasts/saas-timetracker) | Rails Software(server-side web application framework) as a Service Application for time tracking| ✔️  | ❌ | ❌ | ❌   |  ✔️   | Free |
 | [Sage HR](https://sage.hr/features/timesheets) | A simple, easy to use interface to adjust hours worked & submit a timesheet for approval to a manager | ✔️  | ✔ | [JSON](./data-formats/sageHR-JSON.md) | ✔️  | ❌  | [7$/employee](https://sage.hr/pricing) |
 | [Samay](https://github.com/nexneo/samay) | Command line Time tracking and reporting | ✔️  |  ❌  |  ❌  | ❌ | ✔️   | Free |
 | [SAP Fieldglass](https://play.google.com/store/apps/details?id=com.sap.ui5.timeentry) | Cloud-based Vendor Management System (VMS) | ✔️  | JSON/CSV |  JSON/CSV | ✔️   |  ❌  | Free(too good to be true) |
-| [Savemytime](https://play.google.com/store/apps/details?id=com.godmodev.optime) | Mobile timetracker  | ✔️  | [CSV](./data-formats/saveMyTime-CSV.md) (proffesional 3$) | ❌(?) |  ❌  | ❌ | 0-3$ |
-| [Scoro](https://www.scoro.com/time-management-software/) | Software as a Service (SaaS)| ✔️  | [JSON](./data-formats/scoro-JSON.md) |  [JSON](./data-formats/scoro-JSON.md)  | ✔️  | ❌ | [19$-49$+](https://www.scoro.com/pricing/) |
 | [SimpleTimeTracker-Razeeman](https://play.google.com/store/apps/details?id=com.razeeman.util.simpletimetracker) | Time tracker app | ✔️  | [CSV](./data-formats/simpleTimeTracker-CSV.md) | N/A |  ❌  | ✔️  | Free |
 | [Simple TimeTracker with Notion](https://apps.apple.com/nl/app/simple-timetracker-with-notion/id1590343222) | IOS app time tracker | ✔️  | ❌ |  ❌ |  ❌  |  ❌ | Free |
 | [SINC](https://play.google.com/store/apps/details?id=com.sinc.sincandroid) | Timecard And Location Tracking App | ✔️   | PDF/Excel(the excel file can be opened and saved as a CSV file) |  ❌ | ✔️    | ❌ | 0-50$ |
 | [Smarter Time](https://play.google.com/store/apps/details?id=com.smartertime) | Time tracker app for iOS,Web and  Android | ✔️  | [CSV](./data-formats/smarterTime-CSV.md) | N/A | ❌ | ❌ | 0-5$ |
 | [Sprint App](https://github.com/macfanatic/SprintApp) | Project management and time tracking app | ✔️  | ❌(Html response. No clear doc, conclusion made by looking the code) | N/A |  ✔️  | ✔️  | Free |
 | [Staple](https://github.com/bertinetto/staple) | Staple tracker. CVPR 2017: End-To-End Representation Learning for Correlation Filter Based Tracking | ❌ | N/A  | N/A  | N/A | ✔️  | Free |
-| [Stratustime](https://stratustime.centralservers.com/) |  Employees can record their time  | ✔️   | [JSON](./data-formats/stratustime-JSON.md), [XML](./data-formats/stratustime-XML.md)| [XML](./data-formats/stratustime-XML.md), [JSON](./data-formats/stratustime-JSON.md)  |  ✔️  | ❌  | 4$+/employee |
 | [StreaDeck-Toggl](https://github.com/tobimori/streamdeck-toggl) |Time tracking using [Elgato Stream Deck](https://www.elgato.com/en/stream-deck) and [Toggl Track](https://toggl.com/track/) | ✔️  | JSON | JSON |  ✔️   | ✔️  | Free |
 | [Super Productivity](https://github.com/johannesjo/super-productivity) | todo list app with integrated [Timeboxing](https://en.wikipedia.org/wiki/Timeboxing) and time tracking capabilities | ✔️  | N/A | N/A | ✔️   |  ❌  | Free |
 | [swdc-vscode](https://github.com/swdotcom/swdc-vscode) | Time-tracking plugin for Visual Studio Code | ✔️   | N/A | N/A |  ✔️  | ✔️  | Free |
@@ -180,27 +140,18 @@ Alphabetical list:
 | [Ticket Timer](https://www.freshworks.com/apps/freshdesk/ticket_timer/)  |Time tracker app, which uses tickets to save time(Need for [Freshworks](https://www.freshworks.com/)) account | ✔️  - | - |  ❌  | ❌  | Free/Premium(price is not clear) |
 | [Tim](https://github.com/MatthiasKauer/tim) |  CL for recording time logs(Handled by [hledger](https://hledger.org/)) | ✔️  | JSON | - |  ❌  | ✔️  | Free |
 | [Timav](https://szymonkaliski.com/projects/timav/) | Time Tracking system backed by Google Calendar | ✔️  | - | - |  ❌  | ✔️  | Free |
-| [Time](https://github.com/wbbly/time) | React UI for Wobbly Time Tracker for the Teams | ✔️ | CSV | (❌) | ✔️ | ✔️ | 0-29.99$| 
 | [Time and Labor](https://timeandlabor.paychex.com/secure/) | See also Paychex | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | (waiting for response) | 
-| [TimeBro](https://www.timebro.com/) | Never lose a minute with time tracking again | ✔️ | [TimeBroCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-CSV.md) [TimeBroExcel](./data-formats/timeBro-Excel.md) [TimeBroPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeBro-PDF.pdf)| ❌ | ❌ | ❌ | 14-30$| 
-| [Timecamp](https://www.timecamp.com/) | Track time against your projects and create reports and timesheets in seconds. | ✔️ | [TimeCampCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timecamp-CSV.md) [TimeCampExcel](./data-formats/timeCamp-Excel.md) [TimeCampPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeCamp-PDF.pdf) | ❌ | ✔️ | ❌ | 0-9$ | 
 | [Timecop](https://github.com/hamaluik/timecop) | A time tracking app that respects your privacy and gets the job done without getting too fancy.| ❌ | CSV | ❌ | ❌ | ✔️ | 0.79$ | 
 | [Timed](https://github.com/adeel/timed) | Timed is a command-line time tracker. | ❌ | ❌ | ❌ | ❌ | ✔️| Free | 
-| [Time Doctor](https://www.timedoctor.com/) | Automatic time tracking lets you know where the team excels and where it needs help so you can easily improve individual and overall performance.| ✔️ | [TimeDoctorCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timeDoctor.CSV.md) [TimeDoctorExcel](./data-formats/timeDoctor-Excel.md) | ❌ | ✔️ | ✔️ | 7-24$ | 
 | [Timeero](https://play.google.com/store/apps/details?id=com.timeero.time_clock) | Track employee hours, mileage and location with our GPS time tracking app.| ✔️ | ❌ | ❌ | ❌ | ❌| 5-10$ | 
 | [Timeglass](http://timeglassapp.io/) | Time anything.
 Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ | 
 | [Timelog](https://play.google.com/store/apps/details?id=dev.giall.timelog) | Make time tracking a no-brainer. | ✔️ | ❌ | ❌ | ❌ | ❌ | 0-40$ | 
-| [Timely](https://www.freshworks.com/apps/freshdesk/timely/) ([Android app](https://play.google.com/store/apps/details?id=com.timeapp.devlpmp) | Works with Freshdesk / Freshworks) | ✔️ | [TimelyCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-CSV.md) [TimelyExcel](./data-formats/timely-Excel.md) [TimelyPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timely-PDF.pdf) | ❌ | ✔️ | ❌ | 8-20$ | 
-| [Time Manager](https://apps.nextcloud.com/apps/timemanager) ([repo](https://github.com/te-online/timemanager) | (description) | ✔️ | [TimeManagerCSV](./data-formats/timeManager-CSV.csv) | ✔️ | (supports teams?) | ✔️ | Free ) | 
 | [Time Meter](https://play.google.com/store/apps/details?id=com.rk.timemeter) | Time Meter| ✔️ | ✔️ | ❌ | ❌ | ❌ | 0-5$| 
 | [TimePouch](https://github.com/chesles/timepouch) | timepouch is a command-line time tracking utility  | ❌| ❌ | ❌ | ❌ | ✔️ | Free | 
-| [TimePulse](https://github.com/TimePulse/TimePulse) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
 | [Time Recorder](https://play.google.com/store/apps/details?id=com.dynamicg.timerecording) | Time Recorder | ✔️ | [TimeRecordExcel](./data-formats/timeRecorder-Excel.md) [TimeRecorderPDF](./data-formats/timeRecorder-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
-| [Timesheet](https://play.google.com/store/apps/details?id=robin.urenapp) | By Robin Dijkhof | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV.md) [TimeSheetPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-PDF.pdf) | ❌ | ❌ | ❌ | Free | 
 | [Timesheet](https://play.google.com/store/apps/details?id=com.unidevsolutions.timesheet) | By Unidev Solutions | ✔️ | [TimeSheetCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheet-CSV-1.md) | ❌ | ❌| ❌ | 0-5.35$ | 
 | [Timesheet History](https://play.google.com/store/apps/details?id=com.forutan.app.timesheethistory) | by Forutan Software | ✔️ | Excel - but need pay before export | ❌ | ❌ | ❌ | 2.24$ | 
-| [Timesheet Mobile](https://apps.apple.com/us/app/timesheet-mobile/id560462162) | Timesheet Mobile | ✔️ | [TimeSheetMobileCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetMobile-CSV.md | ❌ | ✔️| ❌ | 3-149$ | 
 | Timesheet PDF [Android app](https://play.google.com/store/apps/details?id=com.mds.tplus) [iOS app](https://apps.apple.com/us/app/timesheet-pdf/id898115583) | by Mobile and Database Solutions | ✔️ | [TimeSheetPDF](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetPDF-PDF.pdf | ❌ | ❌ | ❌| The price is not set. | 
 | [Timesheet - Time Tracker](https://play.google.com/store/apps/details?id=com.rauscha.apps.timesheet) | Timesheet - Time Tracker | ✔️ | [TimeSheetTimeTrackerCSV](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetTimeTracker-CSV.md [TimeSheetTimeTrackerExcel](./data-formats/timesheetTimeTracker-Excel.md)| ❌ | ❌ | ❌ | 0-10$ | 
 | [Timesheet - Time Card](https://play.google.com/store/apps/details?id=com.aadhk.time) | Timesheet - Time Card | ✔️ | CSV/Excel | CSV/Excel | ❌ | ❌ | Free | 
@@ -208,20 +159,14 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | Timesheet - Track Work Hours [Android app](https://play.google.com/store/apps/details?id=com.sullivansoftware.timesheetapp) [iOS app](https://apps.apple.com/us/app/timesheet-track-work-hours/id1326395665) | Timesheet - Track Work Hours  | ✔️ | ❌ | ❌| ❌ | ❌ | Free | 
 | [Timesheets](https://github.com/hardchor/timesheets) | By hardchor | ❌ | ❌ | ❌ | ❌| ✔️ | Free | 
 | [Timesheets](https://play.google.com/store/apps/details?id=com.singlebyte.harvest) | By SingleByte | ❌  | ❌ | ❌ | ❌ | ❌ | Free | 
-| Timesheets Time Tracker | See Veryfi | ✔️ | [TimeSheetVerifyUiJSON](https://github.com/federatedbookkeeping/timesheets/blob/main/data-formats/timesheetVerifyUiJSON.md | ❌ | ✔️ | ❌ | 0-500$ |
 | [Timestrap](https://github.com/overshard/timestrap) | Full export support in multiple formats | ❌ | ✔️ | ❌ | ❌ | ✔️ | Free | 
 | [TimeTell](https://timetell.com/software-modules/) | TimeTell | ❌ | ✔️ | ❌ | ❌ | ❌ | Not find | 
-| [Timetip](https://github.com/rstacruz/timetip) | Deliciously-minimal time tracker for the command-line | ✔️ | [TimeSheetTimeTrackerExcel](./data-formats/timeTip-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [TimeTrack](https://play.google.com/store/apps/details?id=com.time_tracking.user006test.timetracking)  | TimeTrack | waiting for response | ❌ | ❌ | ❌ | ❌ | I don't know | 
 | [Time Track](https://github.com/torsten/TimeTrack) | A minimalist time tracking app for Mac OS | ❌ | ❌ | ❌ | ❌ | ✔️ | Free | 
 | [TimeTracker](https://github.com/knewter/time-tracker) | By Knewter | ❌ | ❌ | ❌ | ❌ | ✔️ | Free | 
-| [Timetracker](https://github.com/anuko/timetracker) | By Anuko | ✔️ | [TimeTrackerCSV](./data-formats/timeTracker-CSV.md) [TimeTrackerPDF](./data-formats/timeTracker-PDF.pdf) [TimeTrackerXML](./data-formats/timeTracker-XML.md) | ✔️ | ✔️ | ✔️ | Free | 
-| [Time Tracker](https://play.google.com/store/apps/details?id=com.cg.android.ebillitytimetracker) | By eBillity | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerDaily-CSV.md) [TimeTrackerExcel](./data-formats/timeTrackerDaily-Excel.md)| ❌ | ✔️ | ❌ | 6-24$ | 
 | [Timetracker](https://github.com/eyscode/timetracker) | By Eysenk, CLI client for BairesDev TimeTracker | ❌ | CSV | ❌ | ❌ | ✔️ | Free | 
-| [Time Tracker](https://apps.nextcloud.com/apps/timetracker) | On Nextcloud | ✔️ | [TimeTrackerCSV](./data-formats/timeTrackerNextcloud-CSV.md) [TimeTrackerJSON](./data-formats/timeTrackerNextcloud-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker](https://play.google.com/store/apps/details?id=zzz1zzz.tracktime) | By Zafer Ertas | ✔️ | ✔️ | ❌ | ❌ | ❌ | 6$ | 
 | [Time Tracker - Timesheet](https://play.google.com/store/apps/details?id=ch.gridvision.pbtm.androidtimerecorder) | By Gridvision | ✔️ | [TimeTrackerTimesheetCSV](./data-formats/timeTrackerTimesheet-CSV.md) | ❌ | ❌ | ❌ | Free | 
-| [Time Tracker CLI](https://github.com/danibram/time-tracker-cli) | Node JS cli application | ✔️ | [TimeTrackerCliCSV](./data-formats/timeTrackerCli-CSV.md) [TimeTrackerCliJSON](./data-formats/timeTrackerCli-JSON.md)| ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker Mac](https://github.com/rburgst/time-tracker-mac) | By Rainer Burgstaller | ❌ | ✔️ | ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker Mac](https://github.com/avh4/time-tracker-for-mac) | By Aaron VonderHaar, archived? | ❌ | ✔️ | ❌ | ❌ | ✔️ | Free | 
 | [Time Tracking](https://github.com/derhuerst/time-tracking) | Minimalistic command line time tracking | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
@@ -229,43 +174,3 @@ Or everything. | ✔️ | ❌| ❌ | ❌ | ❌ | ❌ |
 | [Timetrap](https://github.com/samg/timetrap) | simple command line time tracker | ✔️ | [TimeTrapCliCSV](./data-formats/timetrapCli-CSV.md) | ❌ | ❌ | ✔️ | Free | 
 | [Time Tracker Flutter Course](https://github.com/bizz84/time_tracker_flutter_course) | Time Tracker Flutter Course | ✔️ | ❌ | ❌ | ❌ | ✔️ | Free | 
 | [Timewarrior](https://timewarrior.net/) | Timewarrior | ✔️ | [TimeWarriorJSON](./data-formats/timewarrior-JSON.md) | ❌ | ❌ | ✔️ | Free | 
-| [Tipee](https://www.tipee.ch/gestion-du-temps/timesheet/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Titra](https://github.com/kromitgmbh/titra) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Tmetric](https://tmetric.com/) ([Freshdesk plugin](https://www.freshworks.com/apps/freshdesk/tmetric_-_freshdesk_time_tracking_app/)) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Toggl](https://toggl.com/track/business/) ([Alfred Workflow](https://github.com/jason0x43/alfred-toggl)), ([Android app](https://play.google.com/store/apps/details?id=com.toggl.giskard)), ([iOS app](https://apps.apple.com/nl/app/toggl-track-hours-time-log/id1291898086)) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Tomatoes](https://github.com/tomatoes-app/tomatoes) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Total Time Spent](https://www.freshworks.com/apps/freshdesk/total_time_spent/) | Works with Freshdesk / Freshworks | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [TouchTime](https://play.google.com/store/apps/details?id=co.touchtime) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Trackie](https://github.com/beatbrot/trackie) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [TrackingTime](https://play.google.com/store/apps/details?id=co.trackingtime) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [TrackMac](https://github.com/nat/trackmac) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [TrackMyTime](https://github.com/EvgenyKarkan/TrackMyTime) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Track Your Time](https://github.com/Allexin/TrackYourTime) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Traggo](https://github.com/traggo/server) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Transfermyti.me](https://github.com/mikerourke/transfermyti.me) | Toggl - Clockify two-way bridge | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Trax](https://github.com/agateblue/trax) | Archived | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [T-Rec](https://github.com/kleder/timetracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [TTLogger](https://github.com/rodrigoreyes79/ttlogger) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Twacker](https://github.com/jamesu/twackr) | Abandoned? | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [TwentyFive](https://github.com/luckyshot/twentyfive) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Unit4](https://play.google.com/store/apps/details?id=com.unit4.timesheet) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [utt](https://github.com/larose/utt) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Veryfi](https://play.google.com/store/apps/details?id=com.veryfi.timesheet) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [VIM-DoToo](https://github.com/dhruvasagar/vim-dotoo) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Vim Unite Issue](https://github.com/rafi/vim-unite-issue) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Vue-Node Time Tracker](https://github.com/chenkie/vue-node-time-tracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [WakaTime](https://wakatime.com/) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Watson](https://tailordev.github.io/Watson) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [https://github.com/iptq/wat](wat) | Self-hosted drop-in replacement for wakatime, a time-tracking service (wip) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Web Activity Time Tracker](https://github.com/Stigmatoz/web-activity-time-tracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [When I Work](https://wheniwork.com/l/cap) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [WikiSuite Timesheets Tracker](https://profiles.tiki.org/Timesheets_Tracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [WorkingHours](https://play.google.com/store/apps/details?id=partl.workinghours) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [WorkLog](https://play.google.com/store/apps/details?id=com.aadhk.timesheet) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [WorkPuls](https://www.workpuls.com/timesheets) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Xcode Time Tracker](https://github.com/PaulTaykalo/xcode-time-tracker) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Xrono](https://github.com/ironmtntech/xrono) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Youtube Time Tracker](https://github.com/makaroni4/youtube_time_tracker) (see also Episodie) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [ZeitHub](https://github.com/m0g/zeithub) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Zeitkit](https://github.com/dyve-agency/zeitkit) | (description) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 
-| [Zukum](https://git.sr.ht/~bequa/zukum)| (from https://github.com/merveilles/Time-Travelers#time-travellers) | (usable?) | (export formats) | (import formats) | (supports teams?) | (open source?) | price (US$/month) | 

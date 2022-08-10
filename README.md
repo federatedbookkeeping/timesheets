@@ -1,7 +1,31 @@
 # timesheets
 Federated Timesheets Project. Gitter: https://gitter.im/federatedbookkeeping/timesheets
 
-We are now in the integration phase, having analysed what time-tracking apps exist and which CSV/JSON/XML/... formats they export to (see [app-list.md](./apps-list.md) and [data-formats/](./data-formats/) for details), and are currently working on getting the four time-tracking apps to exchange data with one another.
+
+This project has successfully created a Federated Timesheets network between three time tracking systems:
+
+* [time.pondersource.com](https://time.pondersource.com) (an instance of [Prejournal](https://prejournal))
+* [timesheets,dev3.evoludata.com](https://timesheets.dev3.evoludata.com/tiki-index.php) (an instance of [WikiSuite](https://wikisuite.org/Software) with the [Tiki Timesheets Profile(https://profiles.tiki.org/Timesheets) enabled)
+* [timeld.org](https://timeld.org/) (an instance of [Timeld](https://github.com/m-ld/timeld))
+
+We call these three systems "the club". The rules for joining the club are:
+* you have to be able to receive timesheets data from at least one existing club member
+* you have to be able to send timesheets data to at least one existing club member
+* you have to be able to forward timesheets data without causing duplication
+
+
+We call the part of the network that is made up by club members "tier 2".
+Other systems can also be linked to the network without becoming full club members. Such systems form "tier 1".
+A tier 1 system may be able to send timesheets data to at least one club member, or receive timesheets data from at least one club member, or both.
+
+Each human person entering timesheets data is considered to have one home system, which could be a tier 1 system or a tier 2 system. From there, this data will propagate to at least all tier 2 systems, and also to those tier 1 systems that are able to receive.
+
+Currently, all tier 2 systems trust each other to only send data that originated from that person's home system, and not to add or change any of their timesheet entries.  [Milestone 6](https://github.com/federatedbookkeeping/timesheets#milestone-6-digital-signatures) will experiment with using digital signatures to improve this aspect.
+
+See the [apps shortlist](./apps-list.md#shortlist) for a list of apps that are in Tier 1.
+
+See the [data-formats/](./data-formats/) folder for details about the various CSV, JSON, XML etc formats that are used to sync between Tier 2 and Tier 1 systems.
+See the [API definitions wiki page](./wiki/API-Definitions-for-Federated-Time-tracking-tools) for formats that are used to sync between the three Tier 2 systems.
 
 # Management Summary
 
