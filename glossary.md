@@ -2,7 +2,7 @@
 
 | Name | Type | Description | Example |  
 | ---- | ---- | ---- | ---- |
-|<ul><li>User name</li><li>Name</li><li>name</li></ul> | String | Username | Test user |
+|<ul><li>User name</li><li>Name</li><li>name</li><li>Email</li></ul> | String | Username | Test user | alex.malikov94@gmail.com |
 |<ul><li>Employee ID</li><li>Results.EmpIdenitfier</li></ul>| <ul><li>Integer</li><li>String</li></ul> | Unique Employee ID | 1 |
 |<ul><li>data.user.id</li><li>userUid</li><li>id</li> </ul> | <ul><li>Integer</li><li>String</li></ul> | Unique User ID | 1 |
 | <ul><li>activityStartDate[ms]</li><li>activityStartDate</li><li>Start time</li><li>Start date</li><li>start</li><li>data.start_datetime</li><li> Results.StartDateTime</li></ul> | <ul><li>Integer</li><li>YYYY-MM:DD HH:MM:SS </li><li>Datetime (DATE_ISO8601 - Y-m-d\TH:i:sP)</li><li> Day Month DD HH:MM:SS GMT YY </li><ul> | Time when the task started | <ul><li> 1648217938740 </li><li>2022-03-18 09:39:19</li><li>2017-03-13T18:00:00+02:00</li><li> Fri Mar 25 15:09:38 GMT+01:00 2022 </li></ul>  |
