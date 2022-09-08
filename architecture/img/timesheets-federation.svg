@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="828px" preserveAspectRatio="none" style="width:698px;height:828px;background:#FFFFFF;" version="1.1" viewBox="0 0 698 828" width="698px" zoomAndPan="magnify"><defs><filter height="300%" id="f175azt1h4r247" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d645db9086b02bc959c415798c232241]
+cluster Tier 2 - the 'club'--><rect fill="#FFFFFF" filter="url(#f175azt1h4r247)" height="394" style="stroke:#000000;stroke-width:1.5;" width="531" x="7" y="7"/><path d="M143,7 L143,16.4883 L133,26.4883 L7,26.4883 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="126" x="10" y="21.5352">Tier 2 - the 'club'</text><!--MD5=[5880c6c3490d253fd13cec53bf56a4a1]
+cluster Tier 1--><rect fill="#FFFFFF" filter="url(#f175azt1h4r247)" height="351" style="stroke:#000000;stroke-width:1.5;" width="566" x="120" y="465"/><path d="M173,465 L173,474.4883 L163,484.4883 L120,484.4883 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="123" y="479.5352">Tier 1</text><!--MD5=[9cd367c67dc56bfd597dfdb3c0a6fa1b]
+entity pj--><rect fill="#90EE90" filter="url(#f175azt1h4r247)" height="52.9766" style="stroke:#000000;stroke-width:1.5;" width="236" x="179" y="42"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="74" x="189" y="65.5352">Prejournal</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="189" y="82.0234">https://time.pondersource.com</text><!--MD5=[2117018183c09a01edf82456b59260a5]
+entity tt--><rect fill="#90EE90" filter="url(#f175azt1h4r247)" height="52.9766" style="stroke:#000000;stroke-width:1.5;" width="281" x="240.5" y="187"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="118" x="250.5" y="210.5352">Tiki Timesheets</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261" x="250.5" y="227.0234">https://timesheet.dev3.evoludata.com</text><!--MD5=[dd666d95682ed53f534c4d51d7665f6e]
+entity tm--><rect fill="#90EE90" filter="url(#f175azt1h4r247)" height="52.9766" style="stroke:#000000;stroke-width:1.5;" width="144" x="133" y="332"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="47" x="143" y="355.5352">timeld</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="143" y="372.0234">https://timeld.org</text><!--MD5=[b8f0a12c96184d65e0b78185a16f3db7]
+entity CalDAV--><rect fill="#FFC0CB" filter="url(#f175azt1h4r247)" height="69.4648" style="stroke:#000000;stroke-width:1.5;" width="138" x="136" y="615.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69" x="170.5" y="639.0352">«abstract»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="146" y="655.5234">CalDAV</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="146" y="672.0117">e.g. Apple iCloud</text><!--MD5=[08b31960da8a96fd86cfd59394d7331f]
+entity pjImports--><rect fill="#FFC0CB" filter="url(#f175azt1h4r247)" height="300.3008" style="stroke:#000000;stroke-width:1.5;" width="184" x="486" y="500"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="136" x="496" y="523.5352">Prejournal Imports</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="496" y="540.0234">Save My Time</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="496" y="556.5117">Stratus</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="496" y="573">Wbbly Time</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="496" y="589.4883">Time Bro</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="496" y="605.9766">Time Camp</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="496" y="622.4648">Time Doctor</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="496" y="638.9531">Timely</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="496" y="655.4414">Time Manager</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="496" y="671.9297">Timesheet Uren App</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="496" y="688.418">Time tip</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="496" y="704.9063">Anuko Time tracker</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="496" y="721.3945">Time Tracker CLI</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="496" y="737.8828">eBility Time Tracker</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="496" y="754.3711">Nextcloud Time Tracker</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="496" y="770.8594">Verifi Timesheets</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="496" y="787.3477">Timesheet Mobile</text><!--MD5=[3aafd9dd4f94969a1fbc3ef2dd7964f2]
+entity ttImports--><rect fill="#FFC0CB" filter="url(#f175azt1h4r247)" height="85.9531" style="stroke:#000000;stroke-width:1.5;" width="142" x="309" y="607"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="319" y="630.5352">Tiki Integrations</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="319" y="647.0234">Scoro</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="319" y="663.5117">Mite</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="319" y="680">Time</text><!--MD5=[0a40e66b0d616ec4b0a1d59339ee477d]
+link tm to pj--><path codeLine="20" d="M165.13,331.79 C121.36,300.07 60.35,243.38 85,187 C104.35,142.73 148.99,114.53 192.34,96.9 " fill="none" id="tm-to-pj" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="197.07,95.01,187.2292,94.6125,192.4227,96.8546,190.1806,102.0482,197.07,95.01" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="90.5" y="211.0684">live</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="86" y="226.3789">push</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="145.3148" y="321.0604">C</text><!--MD5=[f0583157d67eabfebf7da6d7ad507aa9]
+reverse link pj to tm--><path codeLine="27" d="M253.88,98.5 C226.77,119.49 194.16,150.51 179,187 C158.84,235.53 178.54,297.65 192.92,331.92 " fill="none" id="pj-backto-tm" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="258.18,95.22,248.5979,97.4968,254.2042,98.2519,253.449,103.8582,258.18,95.22" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="180" y="218.5684">import</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="239.1623" y="115.7404">C</text><!--MD5=[9634ea0db1d615f35486abaf22589bf6]
+link tm to tt--><path codeLine="21" d="M205.56,331.9 C207.3,312.66 212.64,286.82 228,270 C238.36,258.66 251.21,249.63 265.04,242.44 " fill="none" id="tm-to-tt" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="269.76,240.08,259.9219,240.5398,265.2907,242.3218,263.5087,247.6906,269.76,240.08" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="233.5" y="283.5684">live</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="31" x="229" y="298.8789">push</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="195.5996" y="321.1972">C</text><!--MD5=[27e27d929adc98245264a48820cbe089]
+link tt to tm--><path codeLine="23" d="M343.63,243.36 C332.73,251.87 320.84,261.25 310,270 C286.11,289.28 259.55,311.42 239.12,328.61 " fill="none" id="tt-tm" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="235.12,331.98,244.5848,329.2566,238.9494,328.765,239.4409,323.1296,235.12,331.98" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="347.6,240.26,338.0419,242.6352,343.6555,243.3327,342.9581,248.9464,347.6,240.26" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="311" y="283.5684">import</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="311.5" y="298.8789">export</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="330.3094" y="260.3593">C</text><!--MD5=[1705abeed6b72583da297387394b2d78]
+link tt to pj--><path codeLine="24" d="M318.36,183.75 C308.58,176.44 299.8,167.58 294,157 C284.66,139.97 285.39,118.14 288.47,100.55 " fill="none" id="tt-pj" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="289.49,95.23,283.8658,103.3151,288.5479,100.1404,291.7225,104.8225,289.49,95.23" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="322.6,186.79,317.5901,178.3106,318.5275,183.8892,312.9488,184.8266,322.6,186.79" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="295" y="138.5684">import</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="295.5" y="153.8789">export</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="298.2681" y="176.0604">C</text><!--MD5=[beb185de905785177f106a6fd432cc39]
+reverse link pj to tt--><path codeLine="26" d="M323.42,99.15 C329.94,107.23 336.59,116.19 342,125 C354.09,144.71 364.55,168.81 371.58,186.72 " fill="none" id="pj-backto-tt" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="320.23,95.26,322.8562,104.7523,323.4055,99.1221,329.0357,99.6714,320.23,95.26" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="359" y="146.0684">import</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="315.3272" y="115.3593">C</text><!--MD5=[a86e66eb30b13477f6cdd83acc768398]
+reverse link tm to CalDAV--><path codeLine="64" d="M205,390.3 C205,445.04 205,558.82 205,615.46 " fill="none" id="tm-backto-CalDAV" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="205,385.19,201,394.19,205,390.19,209,394.19,205,385.19" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="206" y="430.5684">polling</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="216" y="445.8789">pull</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="194.9594" y="405.7034">C</text><!--MD5=[d3d84324f11aa3e9668bf25cf2df4cf0]
+reverse link pj to pjImports--><path codeLine="66" d="M408.65,96.85 C456.64,114.48 508.59,142.7 539,187 C601.12,277.51 608.12,402.69 601.1,499.93 " fill="none" id="pj-backto-pjImports" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="403.72,95.07,410.8228,101.8927,408.4219,96.7707,413.5439,94.3697,403.72,95.07" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="588" y="291.0684">import</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="418.3584" y="115.5557">C</text><!--MD5=[b1dee12652dad36e32da529403905ba0]
+link tt to ttImports--><path codeLine="68" d="M380.93,245.35 C380.76,320.27 380.31,512.24 380.11,601.74 " fill="none" id="tt-ttImports" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="380.1,606.97,384.1257,597.9815,380.1143,601.97,376.1257,597.9586,380.1,606.97" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="380.94,240.06,376.9143,249.0485,380.9257,245.06,384.9143,249.0714,380.94,240.06" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="381" y="356.0684">import</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="381.5" y="371.3789">export</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="370.8855" y="260.5434">C</text><!--MD5=[b6bcce4e94cea365b89a946c22dc4386]
+@startuml
+'https://plantuml.com/component-diagram
+skinparam componentStyle rectangle
+
+frame "Tier 2 - the 'club'" {
+  component pj #lightgreen [
+    **Prejournal**
+    https://time.pondersource.com
+  ]
+
+  component tt #lightgreen [
+    **Tiki Timesheets**
+    https://timesheet.dev3.evoludata.com
+  ]
+
+  component tm #lightgreen [
+    **timeld**
+    https://timeld.org
+  ]
+
+  tm "**C**" - -> pj: live\npush
+  tm "**C**" - -> tt: live\npush
+
+  tt "**C**" <..> tm: import\nexport
+  tt "**C**" <..> pj: import\nexport
+
+  pj "**C**" <.. tt: import
+  pj "**C**" <.. tm: import
+}
+
+frame "Tier 1" {
+  component CalDAV <<abstract>> #pink [
+    **CalDAV**
+    e.g. Apple iCloud
+  ]
+
+  component pjImports #pink [
+    **Prejournal Imports**
+    Save My Time
+    Stratus
+    Wbbly Time
+    Time Bro
+    Time Camp
+    Time Doctor
+    Timely
+    Time Manager
+    Timesheet Uren App
+    Time tip
+    Anuko Time tracker
+    Time Tracker CLI
+    eBility Time Tracker
+    Nextcloud Time Tracker
+    Verifi Timesheets
+    Timesheet Mobile
+  ]
+
+  component ttImports #pink [
+    **Tiki Integrations**
+    Scoro
+    Mite
+    Time
+  ]
+}
+
+tm "**C**" <- - CalDAV: polling\npull
+
+pj "**C**" <.. pjImports: import
+
+tt "**C**" <..> ttImports: import\nexport
+
+@enduml
+
+@startuml
+skinparam componentStyle rectangle
+
+frame "Tier 2 - the 'club'" {
+  component pj #lightgreen [
+    **Prejournal**
+    https://time.pondersource.com
+  ]
+
+  component tt #lightgreen [
+    **Tiki Timesheets**
+    https://timesheet.dev3.evoludata.com
+  ]
+
+  component tm #lightgreen [
+    **timeld**
+    https://timeld.org
+  ]
+
+  tm "**C**" - -> pj: live\npush
+  tm "**C**" - -> tt: live\npush
+
+  tt "**C**" <..> tm: import\nexport
+  tt "**C**" <..> pj: import\nexport
+
+  pj "**C**" <.. tt: import
+  pj "**C**" <.. tm: import
+}
+
+frame "Tier 1" {
+  component CalDAV <<abstract>> #pink [
+    **CalDAV**
+    e.g. Apple iCloud
+  ]
+
+  component pjImports #pink [
+    **Prejournal Imports**
+    Save My Time
+    Stratus
+    Wbbly Time
+    Time Bro
+    Time Camp
+    Time Doctor
+    Timely
+    Time Manager
+    Timesheet Uren App
+    Time tip
+    Anuko Time tracker
+    Time Tracker CLI
+    eBility Time Tracker
+    Nextcloud Time Tracker
+    Verifi Timesheets
+    Timesheet Mobile
+  ]
+
+  component ttImports #pink [
+    **Tiki Integrations**
+    Scoro
+    Mite
+    Time
+  ]
+}
+
+tm "**C**" <- - CalDAV: polling\npull
+
+pj "**C**" <.. pjImports: import
+
+tt "**C**" <..> ttImports: import\nexport
+
+@enduml
+
+PlantUML version 1.2021.10(Mon Aug 30 14:43:48 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
