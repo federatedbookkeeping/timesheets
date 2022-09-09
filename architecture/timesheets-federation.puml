@@ -67,5 +67,6 @@ tm "**C**" <-- CalDAV: polling\npull
 pj "**C**" <.. pjImports: import
 
 tt "**C**" <..> ttImports: import\nexport
+tt "**C**" <..> CalDAV: import\nexport
 
 @enduml
