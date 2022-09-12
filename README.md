@@ -25,7 +25,7 @@ Currently, all tier 2 systems trust each other to only send data that originated
 See the [apps shortlist](./apps-list.md#shortlist) for a list of apps that are in Tier 1.
 
 See the [data-formats/](./data-formats/) folder for details about the various CSV, JSON, XML etc formats that are used to sync between Tier 2 and Tier 1 systems.
-See the [API definitions wiki page](./wiki/API-Definitions-for-Federated-Time-tracking-tools) for formats that are used to sync between the three Tier 2 systems.
+See the [API definitions wiki page](https://github.com/federatedbookkeeping/timesheets/wiki/API-Definitions-for-Federated-Time-tracking-tools) for formats that are used to sync between the three Tier 2 systems.
 
 # Management Summary
 
