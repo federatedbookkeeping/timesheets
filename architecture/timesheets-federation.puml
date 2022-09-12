@@ -24,8 +24,8 @@ frame "Tier 2 – the 'club'" {
   tt "**C**" <..> tm: import\nexport
   tt "**C**" <..> pj: import\nexport
 
-  pj "**C**" <.. tt: import
-  pj "**C**" <.. tm: import
+  pj "**C**" <..> tt: import\nexport
+  pj "**C**" <..> tm: import\nexport
 }
 
 frame "Tier 1" {
