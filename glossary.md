@@ -25,4 +25,5 @@
 | data.event_id | Integer | Related event ID |  1 |
 | data.event_type | String | Event type, task or cal. |  Task |
 | data.time_entry_type | String | Time entry type, task or cal. |  Task |
+| User Group | String | We can have a multiple user that will be in group | Test |
 
