@@ -26,4 +26,9 @@
 | data.event_type | String | Event type, task or cal. |  Task |
 | data.time_entry_type | String | Time entry type, task or cal. |  Task |
 | User Group | String | We can have a multiple user that will be in group | Test |
+| addons_total | Integer | total add-ons charges in on this invoice | 25000 |
+| charges_total | Integer | total charges on this invoice | 0 | 
+| number | Integer | human readable invoice number | 9403943 |
+| payment_status | String | status of the invoice payment | Paid |
+| state | Integer | payment status for this invoice (pending, successful, failed) | 1 |
 
