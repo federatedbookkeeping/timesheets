@@ -20,4 +20,15 @@
 | data_deleted_date | Datetime (DATE_ISO8601 - Y-m-d\TH:i:sP)| Deletion time | 2017-03-13T18:00    :00+02:00|
 | Client | String | The Client of the Project | PonderSource |
 | data.time_entry_id | Integer | Unique time entry ID | 1 |
-|data.is_confirmed  | Integer | Checks if the timesheet has been confirmed | 1 |  
+|data.is_confirmed  | Integer | Checks if the timesheet has been confirmed | 1 |
+|data.invoice_line_id | Integer | Related invoice line ID |  0 |
+| data.event_id | Integer | Related event ID |  1 |
+| data.event_type | String | Event type, task or cal. |  Task |
+| data.time_entry_type | String | Time entry type, task or cal. |  Task |
+| User Group | String | We can have a multiple user that will be in group | Test |
+| addons_total | Integer | total add-ons charges in on this invoice | 25000 |
+| charges_total | Integer | total charges on this invoice | 0 | 
+| number | Integer | human readable invoice number | 9403943 |
+| payment_status | String | status of the invoice payment | Paid |
+| state | Integer | payment status for this invoice (pending, successful, failed) | 1 |
+

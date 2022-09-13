@@ -4,7 +4,7 @@ Federated Timesheets Project. Gitter: https://gitter.im/federatedbookkeeping/tim
 
 This project has successfully created a Federated Timesheets network between three time tracking systems:
 
-* [time.pondersource.com](https://time.pondersource.com) (an instance of [Prejournal](https://prejournal))
+* [time.pondersource.com](https://time.pondersource.com) (an instance of [Prejournal](https://github.com/pondersource/prejournal/))
 * [timesheets,dev3.evoludata.com](https://timesheets.dev3.evoludata.com/tiki-index.php) (an instance of [WikiSuite](https://wikisuite.org/Software) with the [Tiki Timesheets Profile(https://profiles.tiki.org/Timesheets) enabled)
 * [timeld.org](https://timeld.org/) (an instance of [Timeld](https://github.com/m-ld/timeld))
 
@@ -30,6 +30,8 @@ See the [apps shortlist](./apps-list.md#shortlist) for a list of apps that are i
 
 See the [data-formats/](./data-formats) folder for details about the various CSV, JSON, XML etc formats that are used to sync between Tier 2 and Tier 1 systems.
 See the [API definitions wiki page](./wiki/API-Definitions-for-Federated-Time-tracking-tools) for formats that are used to sync between the three Tier 2 systems.
+See the [data-formats/](./data-formats/) folder for details about the various CSV, JSON, XML etc formats that are used to sync between Tier 2 and Tier 1 systems.
+See the [API definitions wiki page](https://github.com/federatedbookkeeping/timesheets/wiki/API-Definitions-for-Federated-Time-tracking-tools) for formats that are used to sync between the three Tier 2 systems.
 
 # Management Summary
 
