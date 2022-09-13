@@ -1,0 +1,72 @@
+@startuml
+'https://plantuml.com/component-diagram
+skinparam componentStyle rectangle
+
+frame "Tier 2 – the 'club'" {
+  component pj #lightgreen [
+    **Prejournal**
+    https://time.pondersource.com
+  ]
+
+  component tt #lightgreen [
+    **Tiki Timesheets**
+    https://timesheet.dev3.evoludata.com
+  ]
+
+  component tm #lightgreen [
+    **timeld**
+    https://timeld.org
+  ]
+
+  tm "**C**" --> pj: live\npush
+  tm "**C**" --> tt: live\npush
+
+  tt "**C**" <..> tm: import\nexport
+  tt "**C**" <..> pj: import\nexport
+
+  pj "**C**" <..> tt: import\nexport
+  pj "**C**" <..> tm: import\nexport
+}
+
+frame "Tier 1" {
+  component CalDAV <<abstract>> #pink [
+    **CalDAV**
+    e.g. Apple iCloud
+  ]
+
+  component pjImports #pink [
+    **Prejournal Imports**
+    Save My Time
+    Stratus
+    Wbbly Time
+    Time Bro
+    Time Camp
+    Time Doctor
+    Timely
+    Time Manager
+    Timesheet Uren App
+    Time tip
+    Anuko Time tracker
+    Time Tracker CLI
+    eBility Time Tracker
+    Nextcloud Time Tracker
+    Verifi Timesheets
+    Timesheet Mobile
+  ]
+
+  component ttImports #pink [
+    **Tiki Integrations**
+    Scoro
+    Mite
+    Time
+  ]
+}
+
+tm "**C**" <-- CalDAV: polling\npull
+
+pj "**C**" <.. pjImports: import
+
+tt "**C**" <..> ttImports: import\nexport
+tt "**C**" <..> CalDAV: import\nexport
+
+@enduml
