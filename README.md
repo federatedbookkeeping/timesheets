@@ -4,7 +4,7 @@ Federated Timesheets Project. Gitter: https://gitter.im/federatedbookkeeping/tim
 
 This project has successfully created a Federated Timesheets network between three time tracking systems:
 
-* [time.pondersource.com](https://time.pondersource.com) (an instance of [Prejournal](https://prejournal))
+* [time.pondersource.com](https://time.pondersource.com) (an instance of [Prejournal](https://github.com/pondersource/prejournal/))
 * [timesheets,dev3.evoludata.com](https://timesheets.dev3.evoludata.com/tiki-index.php) (an instance of [WikiSuite](https://wikisuite.org/Software) with the [Tiki Timesheets Profile(https://profiles.tiki.org/Timesheets) enabled)
 * [timeld.org](https://timeld.org/) (an instance of [Timeld](https://github.com/m-ld/timeld))
 
