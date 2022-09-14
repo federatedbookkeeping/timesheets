@@ -31,4 +31,8 @@
 | number | Integer | human readable invoice number | 9403943 |
 | payment_status | String | status of the invoice payment | Paid |
 | state | Integer | payment status for this invoice (pending, successful, failed) | 1 |
-
+| Budget Type | String | Budget type of working | test |
+| Budget Spent | Integer | How much spent of budget from total | 1000 |
+| Budget remaining | Integer | How much remaining money | 500 |
+| Total Budget | Integer | Total budget | 1500 |
+| Logged Hours | Integer | How much manually add hours | 10 |
