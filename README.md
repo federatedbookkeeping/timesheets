@@ -50,7 +50,7 @@ The text of 1a, 2a, 3a is thrice the same.
 The text of 1b, 2b, 3b is also thrice the same.
 
 ### Milestone 1: Prejournal
-Prejournal.org will be a headless bookkeeping connector that can take data from many types of source documents and export data to many different bookkeeping tools. It can be run as a stand-alone LAMP application, or as a Nextcloud app.
+[Prejournal](https://pondersource.github.io/prejournal/) will be a headless bookkeeping connector that can take data from many types of source documents and export data to many different bookkeeping tools. It can be run as a stand-alone LAMP application, or as a Nextcloud app.
 * Deliverable: Tagged release of the code that does the following. 
 * 1a - 6000 EUR) Import timesheets data from the timetracker tools listed in the wiki (4) that allow data retrieval, either through an API or through a manual export-and-import flow, as well as relevant open standards (like caldav etc).
 * 1b - 6000 EUR) Export timesheets data to billable hours management tools listed in the wiki (4) that allow data entry, either through an API or through a manual export-and-import flow, as well as relevant open standards (like caldav etc).
